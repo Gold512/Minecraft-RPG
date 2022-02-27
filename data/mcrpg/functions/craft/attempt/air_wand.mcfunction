@@ -1,0 +1,1 @@
+execute if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:phantom_membrane", Count:4b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:feather", Count:16b}}] run function mcrpg:craft/success/air_wand

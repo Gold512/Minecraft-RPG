@@ -1,0 +1,2 @@
+execute if score @s mcrpg_st_dm matches 1 run function mcrpg:text/settings/create/detail_mode/boxes
+execute unless score @s mcrpg_st_dm matches 1 run tellraw @s ["",{"text":"\u25b6","clickEvent":{"action":"run_command","value":"/function mcrpg:text/settings/click/detail_mode/open"}},{"text":" "},{"text":"Detail Mode","hoverEvent":{"action":"show_text","contents":"Amount of particles to display in spells or skills"}},{"text": "\n\n"}]

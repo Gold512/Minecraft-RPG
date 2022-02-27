@@ -1,0 +1,1 @@
+execute if entity @e[limit=1,sort=nearest,type=item,distance=...3,nbt={Item:{id:"minecraft:ender_eye", Count:8b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...3,nbt={Item:{id:"minecraft:magma_cream", Count:16b}}] run function mcrpg:craft/success/statusplate

@@ -1,0 +1,16 @@
+{
+    "values": [
+        "water",
+        "lava",
+        "air",
+        "#replaceable_plants",
+        "#coral_plants",
+        "#signs",
+        "ladder",
+        "#small_flowers",
+        "#tall_flowers",
+        "#cave_vines",
+        "vine",
+        "#carpets"
+    ]
+}

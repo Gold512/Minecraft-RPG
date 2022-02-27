@@ -1,0 +1,1 @@
+scoreboard players set @s mcrpg_mana 999999999

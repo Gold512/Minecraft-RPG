@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=mcrpg_model_altar] at @s positioned ~ ~1.5 ~ at @e[type=item,limit=1,distance=...5] run function mcrpg:craft/craft

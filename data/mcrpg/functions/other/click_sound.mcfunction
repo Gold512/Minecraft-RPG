@@ -1,0 +1,1 @@
+playsound ui.button.click master @s ~ ~ ~

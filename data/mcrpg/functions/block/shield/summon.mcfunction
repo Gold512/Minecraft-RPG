@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"2","color":"blue"}',Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["mcrpg_model_shield", "mcrpg_init","mcrpg_custom_hp"]}
