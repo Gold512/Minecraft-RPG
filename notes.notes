@@ -1,0 +1,72 @@
+append to lore
+data modify entity @s Item.tag.display.Lore append value "{\"text\":\"Level 1 Diamond Sword\"}"
+
+Characters:
+    - Mana: 
+    - Tick: ☑
+    - Cross: ☒
+    - Empty: ☐
+    - Triangles:
+        - ▶
+        - ▲
+        - ◀
+        - ▼
+
+    - Lines: 
+        - ━ : \u2501
+        - ┗ : \u2514
+        - ┣ : \u2523
+        - ╸ : \u2578
+        - ┃ : \u2503
+    - Bullet points:
+        - • : \u2022
+    - DBL Lines: ╚ ═ ╠ 
+New Wands:
+- Air Element
+    - Air
+    - Gale 
+    - Tempest
+
+- Fire
+    - Fire
+    - Soulfire 
+    - Dragonfire
+
+- Earth
+    - Earth
+    - 
+
+- Water 
+    - Water
+    - Flood
+
+Important:
+[!] Allow xp to be earned by wand attacks
+    - Solution:
+        - Create dummy scoreboard mcrpg_killer_id and add id to entity
+        - If the entity is killed by a magic attack give player with id the xp
+
+[√] Improve solid block detection engine with no-collision block predicate
+    - Should have one for block changing skills
+    - Seperate predicte for raycasting
+
+High priority:
+[ ] water wands
+[ ] more damage types
+    - Magic
+[√] improved animations 
+
+Leveling systems:
+[x] Stat caps
+[ ] scaling for strength so it has a score to value ratio of "1:0.2" and conert it to a percentage
+
+Medium priority:
+[ ] Reduce chances of holes appearing in earth shield
+[x] custom death messages 
+
+Recipes:
+    air wand: 4 phantom membrane and 16 feathers
+    Earth wand: 
+    fire wan
+
+Bugs:

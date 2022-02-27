@@ -1,0 +1,44 @@
+custom model data ids
+
+# all numbers count from 1 for each section #
+
+0 000000
+^
+type of item (starts from 1)
+
+0 00 0000
+  ^^
+element of item
+
+000 00 00
+    ^^ 
+group number
+- armor: set id
+- wands: will always be 00
+
+
+00000 00
+|     ^^
+   id of item
+- armor: 0-3 in the order head, chest, legs, feet
+- wands: tier number
+
+example: tier 1 fire wand -> 1010001
+
+Type:
+- 1:  Wands
+    - 01: fire #
+        - 00: 
+            - <tier 0 padded to 2 digits>
+
+    - 02: air #
+        - 00: 
+            - <tier 0 padded to 2 digits>
+
+    - 03: earth #
+        - 00: 
+            - <tier 0 padded to 2 digits>
+
+    - 04: water #
+        - 00: 
+            - <tier 0 padded to 2 digits>

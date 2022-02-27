@@ -1,0 +1,128 @@
+=======================
+*Version format* 
+major_update.minor_update.small_tweaks.bugfixes
+
+Major Update  -> changes to global systems like damage, armor, mana leveling etc
+Minor Update  -> changes like a small number (usually less then 3) of new items or skills
+Small Tweaks  -> small balancing changes or recipe changes 
+Bugfixes      -> Patching of discovered edge cases or reducing the chances of or removing errors
+
+Whenever a major update is added the other numbers become 0
+example: v1.2.1.0 -> v2.0.0.0
+
+* if multiple changes are made the highest number is incremented and the other numbers unchanged *
+=======================
+
+v0.1.0.0:
+- Added firewand:
+    - Small fireball [5]
+        - summons small_fireball entity with power nbt equal to velocity*[<matrix of .2 units in direction player is facing>]
+        - speed of 0.3 blocks /t
+    - Fire beam  [15]
+    - Large fireball [50]
+
+v0.2.0.0:
+- Added mana system
+- Adds mana regen to mana every 30t
+- Mana count changes color to green every time mana is added by regen
+- If the mana bar regens to the maximum value, it will flash yellow instead of green
+
+v0.3.0.0:
+- Added air wand:
+    - Dash [10]
+        - Move 4 blocks in direction facing
+    - Wind Blade [20]
+    - Whirlwind [70]
+        - Deals 2 damage to entities 2 block range 
+        - Reverses direction of projectiles in radius of 4 blocks
+        - Reversal formula:
+            - "projectile.power : [xvel, yvel_ zvel] -> [-xvel, -yvel, -zvel]"
+        - Applies tag to prevent player from reversing direction again
+- Added ❁ symbol for mana
+
+v1.0.0.0:
+- Damage engine changes:
+    - Added new damage type "normal"
+        - Takes into account armor when taking damage 
+        - the amount of damage is using the formula -> " damage * [ 100 - 4 * armor_points ]/100 "
+    - Fire and Air wand skills now use normal type damage
+
+v1.1.0.0:
+- Added earth wand:
+    - Dripstone Drop [40]
+        - Range: 7
+        - Interval: .5
+        - Dmg per dripstone: 8
+    - Spike Launch [50]
+        - Not completed yet
+    - Earth Shield [80]
+        - Creates 3x3 grid of shield blocks 2 blocks infront of player
+
+v1.1.0.1:
+- projectile shooting changes:
+    - Projectile search origin changed from ~ ~ ~ to ~ 0 ~
+    - this will reduce chances 2 projectiles generated on the same tick from interfering with each other
+
+v1.1.1.1:
+- large fireball:
+    - Changed explosion power to 1 due to very large damage differenes between this and other spells
+    - changed speed to "110*.2 blocks/t"
+
+- dash:
+    - mana cost: 10 mana -> 10% of max mana
+    - changed speed from instant to .8 blocks/t 
+    - duration: 0t -> 5t
+
+- whirlwind:
+    - added scoreboard id based system to prevent player from reversing the projectile twice
+    - now only prevents the same player from reflecting the projectile
+    - a different player may now reflect a reflected projectile
+    - mana cost: 70 -> 75
+
+v1.1.2.1:
+- Damage engine
+    - Changed death message when killed by spell from "$player fell out of world" to "$player died"
+
+v1.2.2.1:
+- Finished skill "Spike Launch"
+- Fixed bug with small_fireball not working caused when a function was moved and not updated in the small_fireball.mcfunction file
+
+v2.0.0.0:
+- added basic leveling system
+    - Stats:
+        - Strength: +1 hit dmg / 5 Strength
+        - Health: +1 hp / point
+        - Mana: +50 max mana / point
+        - ManaRegen: +5 mana regen / point
+    
+    - Level requirements:
+        - Get 20 xp
+    
+    - Gain 2xp / mobkilled
+
+    - On LevelUp:
+        - + 20 Mana
+        - + 2 Mana Regen
+        - + 3 Stat Points
+
+    - Added Stat assignment menu
+- Stat actionbar now lists mana regen next to mana indicator
+- Added utility book which can be used to view stats easily and open the menu
+
+v2.0.1.0:
+- Change fire wand mana costs 
+    - Small Fireball: 5 -> 10
+    - Large Fireball: 100 -> 60
+- Changed attack damage stat to use a modifier instead of base so it stacks with weapon damage boost
+- Added button to disable and renable Attribute based stats 
+
+v2.0.2.0:
+- Changed whirlwind deflection engine
+    - Instead of reversing the projectile, a matrix is generated
+        - The projectile is moved .2 blocks away from the player in the direction from the player to the projectile
+        - The old x, y and z values are subtracted from the new ones to generate the matrix
+        - The matrix is then applied to the motion nbt and the power nbt if the projectile is a fireball type
+
+v2.0.3.0:
+- Added quick links to utility book
+- Fixed non-operators not being able to click buttons
