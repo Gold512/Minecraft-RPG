@@ -59,7 +59,7 @@ scoreboard objectives add mcrpg_dmg dummy
 # used for type damage which is converted to x true damage
 # type damage should be converted to true damage before the end of the tick
 scoreboard objectives add mcrpg_normal_dmg dummy
-scoreboard objectives add mcrpg_true_dmg dummy
+scoreboard objectives add mcrpg_magic_dmg dummy
 
 # variable scoreboards
 scoreboard objectives add mcrpg dummy

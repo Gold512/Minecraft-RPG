@@ -1,0 +1,1 @@
+execute as @e[scores={mcrpg_magic_dmg=1..}] run function mcrpg:damage/internal/magic

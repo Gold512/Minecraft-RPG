@@ -7,7 +7,7 @@ scoreboard players set @s mcrpg_rcdist 0
 tag @s remove mcrpg_caster
 
 # calculate damage types set by raycast function 
-# do NOT calculate unused damage types
+# might add auto magic type calculation
 function mcrpg:damage/type/normal
 function mcrpg:damage/type/magic
 function mcrpg:damage/mobs
