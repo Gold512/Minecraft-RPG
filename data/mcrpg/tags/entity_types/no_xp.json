@@ -4,6 +4,8 @@
         "item",
         "experience_orb",
         "leash_knot",
-        "#impact_projectiles"
+        "#impact_projectiles",
+        "armor_stand",
+        "area_effect_cloud"
     ]
 }

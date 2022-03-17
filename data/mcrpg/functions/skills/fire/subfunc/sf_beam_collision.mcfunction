@@ -1,3 +1,3 @@
 # ranged aoe 
-particle soul_fire_flame ~ ~ ~ 0 0 0 .3 128 normal @a[tag=!mcrpg_ldm]
-execute as @e[distance=..2] run function mcrpg:skills/fire/subfunc/sf_dmg 
+particle soul ~ ~ ~ 0 0 0 .1 128 force @a
+execute as @e[distance=..2,type=!#mcrpg:no_xp,tag=!mcrpg_caster] run function mcrpg:skills/fire/subfunc/sf_dmg 
