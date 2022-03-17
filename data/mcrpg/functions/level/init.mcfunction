@@ -9,8 +9,12 @@ scoreboard objectives add mcrpg_maxMana dummy
 # stat scoreboards
 scoreboard objectives add mcrpg_health dummy
 scoreboard objectives add mcrpg_strength dummy
-scoreboard objectives add mcrpg_stat_mana dummy
-scoreboard objectives add mcrpg_stat_manaRegen dummy
+
+# magic damage 
+scoreboard objectives add mcrpg_wisdom dummy
+
+# magic regen and max mana 
+scoreboard objectives add mcrpg_intelligence dummy
 
 # triggers 
 scoreboard objectives add mcrpg_stat_menu trigger "MCRPG Stat menu"

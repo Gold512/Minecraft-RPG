@@ -4,7 +4,7 @@ scoreboard players operation .mana mcrpg = @s mcrpg_level
 scoreboard players operation .mana mcrpg *= #20 mcrpg_const
 scoreboard players operation .mana mcrpg += .basemana mcrpg
 
-scoreboard players operation .statboost mcrpg = @s mcrpg_stat_mana
+scoreboard players operation .statboost mcrpg = @s mcrpg_intelligence
 scoreboard players operation .statboost mcrpg *= #50 mcrpg_const
 scoreboard players operation .mana mcrpg += .statboost mcrpg
 
@@ -16,7 +16,7 @@ scoreboard players operation .mana_reg mcrpg = @s mcrpg_level
 scoreboard players operation .mana_reg mcrpg *= #3 mcrpg_const
 scoreboard players operation .mana_reg mcrpg += .basemana_reg mcrpg
 
-scoreboard players operation .statboost mcrpg = @s mcrpg_stat_manaRegen
+scoreboard players operation .statboost mcrpg = @s mcrpg_intelligence 
 scoreboard players operation .statboost mcrpg *= #5 mcrpg_const
 scoreboard players operation .mana_reg mcrpg += .statboost mcrpg
 

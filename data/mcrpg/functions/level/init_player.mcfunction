@@ -1,6 +1,6 @@
 scoreboard players set @s mcrpg_stat_points 0
-scoreboard players set @s mcrpg_stat_mana 0
-scoreboard players set @s mcrpg_stat_manaRegen 0
+scoreboard players set @s mcrpg_wisdom 0
+scoreboard players set @s mcrpg_intelligence 0
 scoreboard players set @s mcrpg_health 0
 scoreboard players set @s mcrpg_strength 0
 scoreboard players set @s mcrpg_level 0
