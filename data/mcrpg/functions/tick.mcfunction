@@ -47,3 +47,6 @@ execute as @a[scores={mcrpg_dash=1..}] at @s run function mcrpg:skills/sub_func/
 
 function mcrpg:level/tick
 execute as @e[tag=dmy] at @s positioned ~ ~1 ~ run particle enchanted_hit ^ ^ ^2.5 0 0 0 0 1 force @p
+
+# general water missile functions 
+execute as @e[tag=missile,type=marker] at @s run function mcrpg:skills/water/subfunc/homing_water/proj_tick

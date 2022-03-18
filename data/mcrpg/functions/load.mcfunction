@@ -88,6 +88,9 @@ function mcrpg:damage/player/init
 scoreboard objectives add mcrpg_sid dummy
 scoreboard objectives add mcrpg_killer_id dummy
 
+execute unless score .global mcrpg_sid = .global mcrpg_killer_id run scoreboard players set .global mcrpg_sid 0
+execute unless score .global mcrpg_killer_id = .global mcrpg_killer_id run scoreboard players set .global mcrpg_killer_id 0
+
 function mcrpg:level/init
 
 # buttons
@@ -120,4 +123,9 @@ scoreboard players set .global visfix 1
 # settings scoreboards
 scoreboard objectives add mcrpg_st_dm dummy
 
+# water missile damage scoreboard
+scoreboard objectives add mcrpg_missile_dmg dummy 
+
 schedule function mcrpg:tick_40t 40t replace
+
+execute as @a unless score @s mcrpg_sid = @s mcrpg_sid run function mcrpg:other/sid/init_player

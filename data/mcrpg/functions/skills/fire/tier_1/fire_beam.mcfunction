@@ -2,7 +2,8 @@ tag @s add mcrpg_caster
 
 scoreboard players operation .id mcrpg_killer_id = @s mcrpg_killer_id
 
-execute anchored eyes positioned ^ ^ ^1.6 run function mcrpg:skills/fire/subfunc/fire_beam
+execute anchored eyes positioned ^ ^ ^1.6 run function mcrpg:skills/fire/subfunc/fire_beam/tick
+
 
 scoreboard players set @s mcrpg_rcdist 0
 
