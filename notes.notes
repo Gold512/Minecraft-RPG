@@ -2,7 +2,7 @@ append to lore
 data modify entity @s Item.tag.display.Lore append value "{\"text\":\"Level 1 Diamond Sword\"}"
 
 Characters:
-    - Mana: 
+    - Mana: ❁
     - Tick: ☑
     - Cross: ☒
     - Empty: ☐
