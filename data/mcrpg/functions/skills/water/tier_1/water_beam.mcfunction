@@ -2,9 +2,10 @@ tag @s add mcrpg_caster
 
 scoreboard players operation .id mcrpg_killer_id = @s mcrpg_killer_id
 
-execute anchored eyes positioned ^ ^ ^1.6 run function mcrpg:skills/water/subfunc/water_beam/tick
+scoreboard players set %range mcrpg 200
+scoreboard players set %bounce mcrpg 2
 
-scoreboard players set @s mcrpg_rcdist 0
+execute positioned ~ ~1.5 ~ positioned ^ ^ ^1 run function mcrpg:skills/water/subfunc/water_beam/start
 
 tag @s remove mcrpg_caster
 

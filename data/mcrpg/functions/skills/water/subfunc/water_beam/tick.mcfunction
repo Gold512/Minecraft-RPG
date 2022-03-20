@@ -1,11 +1,12 @@
-particle minecraft:dust_color_transition 0 0 1 3 0 0.51764 2 ~ ~ ~ 0 0 0 0 1 force
-particle minecraft:dust_color_transition 0 0 1 3 0 0.51764 1 ~ ~ ~ 0 0 0 0.032 4 normal @a[tag=!mcrpg_ldm]
+particle minecraft:dust_color_transition 0 0 1 3 0.27450980392 0.70588235294 0.94117647058 ~ ~ ~ 0 0 0 0 1 force
+particle minecraft:dust_color_transition 0 0 1 2 0.27450980392 0.70588235294 0.94117647058 ~ ~ ~ 0 0 0 0.032 1 normal @a[tag=!mcrpg_ldm]
 
 execute as @e[dx=0,tag=!mcrpg_caster,type=!#mcrpg:no_xp] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run function mcrpg:skills/water/subfunc/water_beam/hit
 
-scoreboard players add @s mcrpg_rcdist 1
+scoreboard players remove %range mcrpg 1
+execute if score %bounce mcrpg matches 1.. unless block ^ ^ ^0.25 #mcrpg:no_collision run function mcrpg:skills/water/subfunc/water_beam/bounce
 
-# block collision animation
-execute unless block ~ ~ ~ #mcrpg:no_collision run function mcrpg:skills/fire/subfunc/soulfire_blast/collision
+# out of bounces, just run a collision effect 
+execute unless score %bounce mcrpg matches 1.. unless block ^ ^ ^0.25 #mcrpg:no_collision run function mcrpg:skills/water/subfunc/water_beam/collision
 
-execute if entity @s[scores={mcrpg_rcdist=..72}] if block ~ ~ ~ #mcrpg:no_collision positioned ^ ^ ^.3 run function mcrpg:skills/water/subfunc/water_beam/tick
+execute if score %range mcrpg matches 1.. positioned ^ ^ ^0.25 if block ~ ~ ~ #mcrpg:no_collision run function mcrpg:skills/water/subfunc/water_beam/tick
