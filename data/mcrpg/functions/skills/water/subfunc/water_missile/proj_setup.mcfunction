@@ -3,4 +3,4 @@ scoreboard players operation @s mcrpg_killer_id = @p[tag=caster] mcrpg_killer_id
 tag @s remove summoned
 
 # store id of caster 
-scoreboard players operation @s mcrpg_sid = @p[tag=caster] mcrpg_sid
+scoreboard players operation @s mcrpg_sid = .id mcrpg
