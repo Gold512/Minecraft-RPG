@@ -10,11 +10,23 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 ## Stats
 
-- Strength
-- Health
-- Intelligence
-- Casting
+- [Strength](#strength)
+- [Health](#health)
+- [Intelligence](#intelligence)
+- [Casting](#casting)
 
+### Strength
+- `+2%` Damage
+
+### Health
+- `+1` Max Health (1 half heart)
+
+### Intelligence
+- `+50` Max Mana
+- `+5` Mana Regeneration (this value is added every `1.5s`)
+### Casting
+- `+2%` Damage from spells
+---
 ## Materials 
 ### **Enchanted Blaze Rod**
 > Description
@@ -69,12 +81,11 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 #### **Recipe**
 
-| Name                 | Amount      |
-| -------------------- | ----------: | 
-|                      |           0 | 
-|                      |           0 | 
-|                      |           0 | 
-|                      |           0 | 
+| Amount | Item      
+| -----: | ---       
+| `3`    | Blue Ice
+| `2`    | Lapis Lazuli
+| `2`    | Water Bucket
 
 ### **Earth Wand**
 > Description here
@@ -88,12 +99,12 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 #### **Recipe**
 
-| Name                 | Amount      |
-| -------------------- | ----------: | 
-| Enchanted Rod        |           1 | 
-| Blaze Powder         |          16 | 
-| Fire Charge          |           6 | 
-| Magma Cream          |           4 | 
+| Amount | Item      
+| -----: | ---       
+| `0`    | 
+| `0`    | 
+| `0`    | 
+| `0`    | 
 
 ### **Air Wand**
 > Description here
@@ -125,9 +136,9 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 #### **Recipe**
 
-| Name                 | Amount      |
-| -------------------- | ----------: | 
-|                      |           0 | 
-|                      |           0 | 
-|                      |           0 | 
-|                      |           0 | 
+| Amount | Item      
+| -----: | ---       
+| `0`    | 
+| `0`    | 
+| `0`    | 
+| `0`    | 
