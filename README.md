@@ -23,27 +23,16 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 ### Intelligence
 - `+50` Max Mana
-- `+5` Mana Regeneration (this value is added every `1.5s`)
+- `+5` Mana Regeneration (this value is added to mana every `1.5s`)
 ### Casting
 - `+2%` Damage from spells
 ---
-## Materials 
-### **Enchanted Blaze Rod**
-> Description
 
-#### **Recipe**
-
-| Amount | Item      
-| -----: | ---       
-| `3`    | Blaze Rod
-| `3`    | Fire Charge 
-| `6`    | Magma Cream
----
 ## Wands
-|      Name                          | Element | Tier | Skills |
-| ---------------------------------- | ------- | ---- | ------ |
-| [Fire Wand](./md/wands.md#fire-wand)            | Fire    | 1    |        |
-| [Water Wand](#water-wand)          | Water   | 1    |        |
-| [Earth Wand](#earth-wand)          | Earth   | 1    |        |
-| [Air Wand](#air-wand)              | Earth   | 1    |        |
-| [Soulfire Wand](#soulfire-wand)    | Fire    | 2    |        |
+|      Name                                       | Element | Tier | 
+| ----------------------------------------------- | ------- | :--: | 
+| [Fire Wand](./md/wands.md#fire-wand)            | Fire    | 1    | 
+| [Water Wand](./md/wands.md#water-wand)          | Water   | 1    | 
+| [Earth Wand](./md/wands.md#earth-wand)          | Earth   | 1    | 
+| [Air Wand](./md/wands.md#air-wand)              | Earth   | 1    | 
+| [Soulfire Wand](./md/wands.md#soulfire-wand)    | Fire    | 2    | 

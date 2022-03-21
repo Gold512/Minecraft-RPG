@@ -1,13 +1,8 @@
 # Wands
 
-<div style="position:fixed; right: 10%; position: fixed; border-radius: .3em; border: 2px #333 solid; ">
-    <a href="../README.md" style="margin-left: .3em; margin-right: .3em;">Back</a>
-</div>
-
-
 ## **Fire Wand**
 [back](../README.md)
-> Description here
+> A basic fire wand, set your enemies aflame
 
 ### **Skills**
 |    Name           | Speed     | Range             | Type     | 
@@ -20,14 +15,14 @@
 
 | Amount | Item      
 | -----: | ---       
-| `1`    | [Enchanted Blaze Rod](#enchanted-blaze-rod)
+| `1`    | [Enchanted Blaze Rod](./materials.md#enchanted-blaze-rod)
 | `16`   | Blaze Powder
 | `6`    | Fire Charge
 | `4`    | Magma Cream
 
 ## **Water Wand**
 [back](../README.md)
-> Description here
+> A very flexible and fluid wand 
 
 ### **Skills**
 |    Name           | Speed     | Range             | Type     | 
@@ -46,7 +41,7 @@
 
 ## **Earth Wand**
 [back](../README.md)
-> Description here
+> Bend the very blocks around you
 
 ### **Skills**
 |    Name           | Speed            | Range             | Type     | 
@@ -66,7 +61,7 @@
 
 ## **Air Wand**
 [back](../README.md)
-> Description here
+> Gives the ability to manipulate the air around you, blow your enemies away
 
 ### **Skills**
 |    Name           | Speed     | Range             | Type     | 
@@ -85,7 +80,7 @@
 
 ## **Soulfire Wand**
 [back](../README.md)
-> Description here
+> An enhanced wand of the fire element. Burns even hotter with the power of the Nether
 
 ### **Skills**
 |    Name            | Speed     | Range             | Type     | 

@@ -18,4 +18,4 @@ scoreboard objectives add mcrpg_intelligence dummy
 
 # triggers 
 scoreboard objectives add mcrpg_stat_menu trigger "MCRPG Stat menu"
-scoreboard objectives add mcrpg_stat_btn trigger "MCRPG Stat Menu btn"
+scoreboard objectives add mcrpg_btn trigger "MCRPG Stat Menu btn"
