@@ -8,8 +8,8 @@ A minecraft RPG Datapack with custom wands, stat system etc
 ### Wands
 |      Name                          | Element | Tier | Skills |
 | ---------------------------------- | ------- | ---- | ------ |
-| (Fire Wand)[#fire_wand]            | Fire    | 1    |        |
-| Water Wand                         | Water   | 1    |        |
+| [Fire Wand](#fire_wand)            | Fire    | 1    |        |
+| [Water Wand](#water_wand)          | Water   | 1    |        |
 | Earth Wand                         | Earth   | 1    |        |
 | Air Wand                           | Earth   | 1    |        |
 | Soulfire Wand                      | Fire    | 2    |        |
@@ -20,3 +20,5 @@ A minecraft RPG Datapack with custom wands, stat system etc
     - Small Fireball'
     - Fire Beam
     - Large Fireball
+
+#### Water Wand
