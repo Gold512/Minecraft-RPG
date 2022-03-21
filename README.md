@@ -3,6 +3,11 @@ Minecraft-RPG
 
 A minecraft RPG Datapack with custom wands, stat system etc
 
+## Terms & units 
+- m = meter (1 block)
+- r = radius (meters/blocks)
+
+
 ## Stats
 
 - Strength
@@ -13,8 +18,8 @@ A minecraft RPG Datapack with custom wands, stat system etc
 ## Wands
 |      Name                          | Element | Tier | Skills |
 | ---------------------------------- | ------- | ---- | ------ |
-| [Fire Wand](#fire_wand)            | Fire    | 1    |        |
-| [Water Wand](#water_wand)          | Water   | 1    |        |
+| [Fire Wand](#fire-wand)            | Fire    | 1    |        |
+| [Water Wand](#water-wand)          | Water   | 1    |        |
 | [Earth Wand](#earth-wand)          | Earth   | 1    |        |
 | [Air Wand](#air-wand)              | Earth   | 1    |        |
 | [Soulfire Wand](#soulfire-wand)    | Fire    | 2    |        |
@@ -39,6 +44,7 @@ A minecraft RPG Datapack with custom wands, stat system etc
 | Blaze Powder         |          16 | 
 | Fire Charge          |           6 | 
 | Magma Cream          |           4 | 
+
 
 ### **Water Wand**
 > Description here
@@ -100,11 +106,11 @@ A minecraft RPG Datapack with custom wands, stat system etc
 > Description here
 
 #### **Skills**
-|    Name           | Speed     | Range             | Type     | 
-| ----------------- | --------- | ----------------- | -------- |
-| Soulfire Beam     | **null**  | 21.6              | Physics  |
-| Soulfire Blast    | Instant   | 21.6              | Beam     |
-|     | Instant   | 21.6              | Physics  |
+|    Name            | Speed     | Range             | Type     | 
+| ------------------ | --------- | ----------------- | -------- |
+| Soulfire Beam      | **null**  | 21.6              | Physics  |
+| Soulfire Blast     | Instant   | 21.6              | Beam     |
+| Soulfire Shockwave | Instant   | 21.6              | Physics  |
 
 #### **Recipe**
 
