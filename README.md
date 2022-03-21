@@ -15,6 +15,18 @@ A minecraft RPG Datapack with custom wands, stat system etc
 - Intelligence
 - Casting
 
+## Materials 
+### **Enchanted Blaze Rod**
+> Description
+
+#### **Recipe**
+
+| Amount | Item      
+| -----: | ---       
+| `3`    | Blaze Rod
+| `3`    | Fire Charge 
+| `6`    | Magma Cream
+---
 ## Wands
 |      Name                          | Element | Tier | Skills |
 | ---------------------------------- | ------- | ---- | ------ |
@@ -38,13 +50,12 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 #### **Recipe**
 
-| Name                 | Amount      |
-| -------------------- | ----------: | 
-| Enchanted Rod        |           1 | 
-| Blaze Powder         |          16 | 
-| Fire Charge          |           6 | 
-| Magma Cream          |           4 | 
-
+| Amount | Item      
+| -----: | ---       
+| `1`    | [Enchanted Blaze Rod](#enchanted-blaze-rod)
+| `16`   | Blaze Powder
+| `6`    | Fire Charge
+| `4`    | Magma Cream
 
 ### **Water Wand**
 > Description here
@@ -96,11 +107,11 @@ A minecraft RPG Datapack with custom wands, stat system etc
 
 #### **Recipe**
 
-| Name                 | Amount      |
-| -------------------- | ----------: | 
-| Stick                |           1 | 
-| Phantom Membrane     |           4 | 
-| Feather              |          16 | 
+| Amount | Item      
+| -----: | ---       
+| `1`    | Stick
+| `4`    | Phantom Membrane
+| `16`   | Feather
 
 ### **Soulfire Wand**
 > Description here
