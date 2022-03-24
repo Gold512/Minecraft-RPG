@@ -1,7 +1,7 @@
 scoreboard players reset @s mcrpg_coas_use
 
-execute if data entity @s SelectedItem.tag.mcrpg run data modify storage mcrpg attack set from entity @s SelectedItem.tag.mcrpg
-execute unless data entity @s SelectedItem.tag.mcrpg run data modify storage mcrpg attack set from entity @s Inventory[{Slot: -106b}].tag.mcrpg
+execute if data entity @s SelectedItem.tag.mcrpg run function mcrpg:event/subfunc/mh_rc
+execute unless data entity @s SelectedItem.tag.mcrpg run function mcrpg:event/subfunc/oh_rc
 
 execute if data storage mcrpg {attack:"fire_wand"} at @s run function mcrpg:item/fire_wand/attack
 execute if data storage mcrpg {attack:"air_wand"} at @s run function mcrpg:item/air_wand/attack
