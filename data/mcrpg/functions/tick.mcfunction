@@ -1,10 +1,13 @@
 # function mcrpg:book/auto_update
-execute as @a[predicate=mcrpg:offhand] at @s run function mcrpg:event/switchhand
+execute as @a[predicate=mcrpg:offhand] at @s run function mcrpg:event/subfunc/switch/oh
+execute as @a[predicate=mcrpg:mainhand] at @s run function mcrpg:event/subfunc/switch/mh
+
 execute as @a[scores={mcrpg_coas_use=1..}] at @s run function mcrpg:event/rclick
 function mcrpg:other/attempt_craft
 
 
-# scoreboard players set @a[scores={mcrpg_shifting=1..}] mcrpg_shifting 0
+scoreboard players set @a[scores={mcrpg_shifting=1..}] mcrpg_shifting 0
+
 scoreboard players add @a mcrpg_manaTimer 1
 
 execute as @a[gamemode=!creative,gamemode=!spectator] run function mcrpg:other/statbar

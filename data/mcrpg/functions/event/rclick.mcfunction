@@ -1,11 +1,14 @@
 scoreboard players reset @s mcrpg_coas_use
-execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"fire_wand"}}}] at @s run function mcrpg:item/fire_wand/attack
-execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"air_wand"}}}] at @s run function mcrpg:item/air_wand/attack
-execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"earth_wand"}}}] at @s run function mcrpg:item/earth_wand/attack
-execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"water_wand"}}}] at @s run function mcrpg:item/water_wand/attack
 
-execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"soulfire_wand"}}}] at @s run function mcrpg:item/soulfire_wand/attack
+execute if data entity @s SelectedItem.tag.mcrpg run data modify storage mcrpg attack set from entity @s SelectedItem.tag.mcrpg
+execute unless data entity @s SelectedItem.tag.mcrpg run data modify storage mcrpg attack set from entity @s Inventory[{Slot: -106b}].tag.mcrpg
 
+execute if data storage mcrpg {attack:"fire_wand"} at @s run function mcrpg:item/fire_wand/attack
+execute if data storage mcrpg {attack:"air_wand"} at @s run function mcrpg:item/air_wand/attack
+execute if data storage mcrpg {attack:"earth_wand"} at @s run function mcrpg:item/earth_wand/attack
+execute if data storage mcrpg {attack:"water_wand"} at @s run function mcrpg:item/water_wand/attack
+
+execute if data storage mcrpg {attack:"soulfire_wand"} at @s run function mcrpg:item/soulfire_wand/attack
 
 # execute if entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":""}'}}}}] at @s run function mcrpg:skills/dragon_fireball
 
