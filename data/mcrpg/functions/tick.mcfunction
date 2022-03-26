@@ -35,6 +35,7 @@ function mcrpg:damage/player/main
 
 # dash
 execute as @a[scores={mcrpg_dash=1..}] at @s run function mcrpg:skills/sub_func/dash_tick
+execute as @a[scores={mcrpg_cd=1..}] run scoreboard players remove @s mcrpg_cd 1
 
 # prevent jittering of entities with 'Motion' or 'power' set
 # execute as @e[type=#mcrpg:vis_fix, tag=mcrpg_vis_fix] run function mcrpg:other/vis_fix

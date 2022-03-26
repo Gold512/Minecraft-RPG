@@ -129,3 +129,6 @@ scoreboard objectives add mcrpg_missile_dmg dummy
 schedule function mcrpg:tick_40t 40t replace
 
 execute as @a unless score @s mcrpg_sid = @s mcrpg_sid run function mcrpg:other/sid/init_player
+
+scoreboard objectives add mcrpg_cd dummy
+scoreboard players set @a mcrpg_cd 0
