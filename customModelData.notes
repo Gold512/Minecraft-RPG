@@ -25,20 +25,9 @@ group number
 
 example: tier 1 fire wand -> 1010001
 
-Type:
-- 1:  Wands
-    - 01: fire #
-        - 00: 
-            - <tier 0 padded to 2 digits>
+1: water wands 
+2: fire wand
+3: air wand
+4: earth wand
 
-    - 02: air #
-        - 00: 
-            - <tier 0 padded to 2 digits>
-
-    - 03: earth #
-        - 00: 
-            - <tier 0 padded to 2 digits>
-
-    - 04: water #
-        - 00: 
-            - <tier 0 padded to 2 digits>
+12: soulfire_wand
