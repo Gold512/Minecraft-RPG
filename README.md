@@ -3,6 +3,8 @@ Minecraft-RPG
 
 A minecraft RPG Datapack with custom wands, stat system etc
 
+[resource pack](https://github.com/Gold512/Minecraft-RPG-res)
+
 ## Terms & units 
 - m = meter (1 block)
 - r = radius (meters/blocks)
