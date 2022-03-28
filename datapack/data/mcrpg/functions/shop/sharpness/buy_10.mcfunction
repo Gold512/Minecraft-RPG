@@ -1,0 +1,5 @@
+execute if score @p mcrpg_money matches ..234 run tellraw @s [{"text":"Insufficient currency ","color":"red"},{"text":"item costs ","color":"white"},{"text":"$235 ","color":"aqua"},{"text":"but you only have "},{"score":{"name":"@p","objective":"mcrpg_money"},"color":"red"}]
+execute if score @p mcrpg_money matches 235.. run tellraw @s [{"text":"Bought ","color":"green"},{"text":"item "},{"text":"Enchanted Book ","color":"yellow"},{"text":"[","color":"gray"},{"text":"sharpness 10","color":"light_purple"},{"text":"] ","color":"gray"},{"text":"for "},{"text":"$235","color":"aqua"}]
+execute if score @p mcrpg_money matches 235.. run give @s enchanted_book{StoredEnchantments:[{id:"sharpness",lvl:10}]} 1
+execute if score @p mcrpg_money matches 235.. run scoreboard players remove @s mcrpg_money 235
+function mcrpg:update_book

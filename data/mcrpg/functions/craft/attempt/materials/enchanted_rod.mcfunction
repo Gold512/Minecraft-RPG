@@ -1,2 +1,0 @@
-# 3 blaze rod, 6 fire_charge, 3 magma_cream
-execute if entity @e[type=item,limit=1,distance=...5,nbt={Item:{id:"minecraft:fire_charge",Count:6b}}] if entity @e[type=item,limit=1,distance=...5,nbt={Item:{id:"minecraft:magma_cream",Count:3b}}] run function mcrpg:craft/success/materials/enchanted_rod

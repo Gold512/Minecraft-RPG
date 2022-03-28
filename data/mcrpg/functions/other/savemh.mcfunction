@@ -1,2 +1,0 @@
-item replace entity @s weapon.mainhand from entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=mcrpg_item_cont] weapon.mainhand
-kill @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=mcrpg_item_cont]

@@ -1,2 +1,0 @@
-# enchanted_rod, 16 blaze_powder, 6 fire_charge, 4 magma_cream
-execute if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:blaze_powder", Count:16b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:fire_charge", Count:6b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:magma_cream", Count:4b}}] run function mcrpg:craft/success/fire_wand
