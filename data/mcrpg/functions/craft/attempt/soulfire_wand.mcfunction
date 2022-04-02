@@ -1,0 +1,1 @@
+execute if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:soul_sand", Count:32b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:soul_torch", Count:16b}}] run function mcrpg:craft/success/soulfire_wand

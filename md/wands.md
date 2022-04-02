@@ -93,8 +93,6 @@
 
 | Amount | Item      
 | -----: | ---       
-| `2`    | <span style="color:green">Enchanted Blaze Rod</span>
+| `2`    | [Enchanted Blaze Rod](./materials.md#enchanted-blaze-rod)
 | `32`   | Soul Sand
-| `16`    | 
-| `0`    | 
-| `0`    | 
+| `16`   | Soul Torch
