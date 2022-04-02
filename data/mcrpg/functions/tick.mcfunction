@@ -3,7 +3,6 @@ execute as @a[predicate=mcrpg:offhand] at @s run function mcrpg:event/subfunc/sw
 execute as @a[predicate=mcrpg:mainhand] at @s run function mcrpg:event/subfunc/switch/mh
 
 execute as @a[scores={mcrpg_coas_use=1..}] at @s run function mcrpg:event/rclick
-function mcrpg:other/attempt_craft
 
 
 scoreboard players set @a[scores={mcrpg_shifting=1..}] mcrpg_shifting 0

@@ -1,7 +1,7 @@
 # Wands
 
 ## **Fire Wand**
-[back](../README.md)
+[back](../README.md#wands)
 > A basic fire wand, set your enemies aflame
 
 ### **Skills**
@@ -21,7 +21,7 @@
 | `4`    | Magma Cream
 
 ## **Water Wand**
-[back](../README.md)
+[back](../README.md#wands)
 > A very flexible and fluid wand 
 
 ### **Skills**
@@ -40,7 +40,7 @@
 | `2`    | Water Bucket
 
 ## **Earth Wand**
-[back](../README.md)
+[back](../README.md#wands)
 > Bend the very blocks around you
 
 ### **Skills**
@@ -60,7 +60,7 @@
 | `0`    | 
 
 ## **Air Wand**
-[back](../README.md)
+[back](../README.md#wands)
 > Gives the ability to manipulate the air around you, blow your enemies away
 
 ### **Skills**
@@ -79,7 +79,7 @@
 | `16`   | Feather
 
 ## **Soulfire Wand**
-[back](../README.md)
+[back](../README.md#wands)
 > An enhanced wand of the fire element. Burns even hotter with the power of the Nether
 
 ### **Skills**
@@ -93,7 +93,8 @@
 
 | Amount | Item      
 | -----: | ---       
-| `0`    | 
-| `0`    | 
+| `2`    | <span style="color:green">Enchanted Blaze Rod</span>
+| `32`   | Soul Sand
+| `16`    | 
 | `0`    | 
 | `0`    | 
