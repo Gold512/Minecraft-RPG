@@ -3,7 +3,7 @@ scoreboard players operation .total mcrpg = @s mcrpg_level
 scoreboard players operation .total mcrpg *= #3 mcrpg_const
 
 scoreboard players operation .total mcrpg -= @s mcrpg_wisdom
-scoreboard players operation .total mcrpg -= @s mcrpg_intelligence 
+scoreboard players operation .total mcrpg -= @s mcrpg_casting 
 scoreboard players operation .total mcrpg -= @s mcrpg_health
 scoreboard players operation .total mcrpg -= @s mcrpg_strength
 
