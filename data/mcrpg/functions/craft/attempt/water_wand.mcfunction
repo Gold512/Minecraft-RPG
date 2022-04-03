@@ -1,0 +1,1 @@
+execute if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:prismarine_shard", Count:12b}}] if entity @e[limit=1,sort=nearest,type=item,distance=...5,nbt={Item:{id:"minecraft:packed_ice", Count:16b}}] run function mcrpg:craft/success/water_wand

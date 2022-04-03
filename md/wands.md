@@ -35,9 +35,9 @@
 
 | Amount | Item      
 | -----: | ---       
-| `3`    | Blue Ice
-| `2`    | Lapis Lazuli
-| `2`    | Water Bucket
+| `16`   | Packed Ice
+| `12`   | Prismarine Shard
+| `4`    | Nautilus Shell
 
 ## **Earth Wand**
 [back](../README.md#wands)
