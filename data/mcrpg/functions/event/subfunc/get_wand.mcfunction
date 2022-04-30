@@ -9,3 +9,5 @@ execute if data storage mcrpg {attack:"soulfire_wand"} at @s run function mcrpg:
 
 # execute if entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":"mcrpg_drag_fireball"}'}}}}] at @s run function mcrpg:skills/dragon_fireball
 execute if entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":"mcrpg_dev"}'}}}}] run function mcrpg:skills/water/tier_1/water_missile
+
+execute if data storage mcrpg {attack:"socketable"} at @s run function mcrpg:item/socketable/attack

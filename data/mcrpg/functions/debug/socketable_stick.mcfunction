@@ -1,0 +1,2 @@
+# in this case atk count is the max amount of attacks that can be socketed into the item 
+give @s carrot_on_a_stick{mcrpg:"socketable_stick",mcrpg_atkId:0b,mcrpg_atkCount:3,hasSwitchEvent: 1, mcrpg_atkName: "Double Slash",skills:[{id:0, displayName: "Double Slash", name: "double_slash"}, {id:1, displayName: "Blade Whirlwind", name: "blade_whirlwind"}],socketable:1b, display:{Name:'[{"text":"Socketable Stick","italic":false,"color":"gold"}]'}}

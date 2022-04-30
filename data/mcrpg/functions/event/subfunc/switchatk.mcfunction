@@ -5,3 +5,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"water_wand"}}}] at @s run fu
 
 # tier 2 
 execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:"soulfire_wand"}}}] at @s run function mcrpg:item/soulfire_wand/switch_attack
+
+# socketable items 
+execute if entity @s[nbt={SelectedItem:{tag:{socketable:1b}}}] at @s run function mcrpg:item/socketable/switch_attack

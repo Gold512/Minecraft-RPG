@@ -1,0 +1,2 @@
+execute if score .current_attack mcrpg matches 0..5 run function mcrpg:item/socketable/subfunc/set_name/b0
+execute if score .current_attack mcrpg matches 6..10 run function mcrpg:item/socketable/subfunc/set_name/b1
