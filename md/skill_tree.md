@@ -1,3 +1,5 @@
+[switch to rounded view (not supported on some devices)](./rounded_lore_builder)
+
 # Fire
 ```
 ╤═ Tier 1 ═════════════════════════════════════════════════════════════ Fire ════════════════════════════
