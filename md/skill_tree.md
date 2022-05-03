@@ -1,5 +1,5 @@
-This is the basic view used for development and planning
-[rounded view](./skill_tree/rounded.md)
+This is the basic view used for development and planning  
+[rounded view](./skill_tree/rounded.md)  
 [sharp view](./skill_tree/sharp.md)
 
 # Fire
