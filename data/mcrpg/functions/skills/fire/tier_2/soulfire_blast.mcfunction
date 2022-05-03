@@ -8,6 +8,8 @@ tag @s remove mcrpg_caster
 
 # calculate damage types set by raycast function 
 # might add auto magic type calculation
+function mcrpg:level/calc/set_casting_dmg
+
 function mcrpg:damage/type/normal
 function mcrpg:damage/type/magic
 function mcrpg:damage/mobs

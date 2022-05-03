@@ -9,6 +9,8 @@ execute positioned ~ ~1.5 ~ positioned ^ ^ ^1 run function mcrpg:skills/water/su
 
 tag @s remove mcrpg_caster
 
+function mcrpg:level/calc/set_casting_dmg
+
 function mcrpg:damage/type/normal
 function mcrpg:damage/mobs
 

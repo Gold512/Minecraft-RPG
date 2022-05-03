@@ -9,6 +9,8 @@ scoreboard players operation .id mcrpg_killer_id = @s mcrpg_killer_id
 scoreboard players set @e[distance=.2..2] mcrpg_normal_dmg 2
 execute as @e[distance=.2..2] run function mcrpg:skills/wind/subfunc/whirlwind_hit
 
+function mcrpg:level/calc/set_casting_dmg
+
 function mcrpg:damage/type/normal
 
 function mcrpg:damage/mobs

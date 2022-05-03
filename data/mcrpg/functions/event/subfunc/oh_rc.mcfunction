@@ -1,7 +1,7 @@
 # offhand rightclick
 data modify storage mcrpg attack set from entity @s Inventory[{Slot: -106b}].tag.mcrpg
-data modify storage mcrpg socketable set from entity @s Inventory[{Slot: -106b}].tag.socketable
-execute if data storage mcrpg {socketable:1b} run function mcrpg:event/subfunc/socketable_data
+execute store success score .socketable mcrpg run data get entity @s Inventory[{Slot: -106b}].tag.socketable
+execute if score .socketable mcrpg matches 1 run function mcrpg:event/subfunc/socketable_data
 execute store result score @s mcrpg run data get entity @s Inventory[{Slot: -106b}].tag.mcrpg_atkId
 
 # store skill id 

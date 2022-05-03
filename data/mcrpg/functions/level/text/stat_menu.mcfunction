@@ -8,6 +8,10 @@ scoreboard players operation .total_str_float mcrpg = .total_strength mcrpg
 scoreboard players operation .total_str_int mcrpg /= #100 mcrpg_const
 scoreboard players operation .total_str_float mcrpg %= #100 mcrpg_const
 
+# magic damage boost from Casting
+scoreboard players operation .magic_dmg_boost mcrpg = @s mcrpg_casting 
+scoreboard players operation .magic_dmg_boost mcrpg *= #2 mcrpg_const
+
 # execute store result score .total_strength mcrpg run attribute @s generic.attack_damage modifier value get d63797b4-14c6-4f33-86d0-fdee7d3165ed 100
 # scoreboard players operation .total_strength mcrpg *= .base_str mcrpg
 # scoreboard players operation .total_strength mcrpg /= #100 mcrpg_const
@@ -19,7 +23,7 @@ tellraw @s ["",{"text":"[","color":"gray","clickEvent":{"action":"run_command","
 tellraw @s ["", {"text": "     ┣", "color": "gray"}, {"text": " Mana", "color":"dark_purple"},{"text":" [","color":"gray"},{"score":{"name":"@s","objective":"mcrpg_maxMana"},"color":"blue"},{"text":"\u2741","color":"blue"},{"text":"]","color":"gray"}]
 tellraw @s ["", {"text": "     ┗", "color": "gray"}, {"text": " Mana Regen", "color":"dark_purple","hoverEvent":{"action":"show_text","contents":"Note: Mana regen value is added to mana every 1.5s (30ticks)"}}, {"text": ""}, {"text":" [","color":"gray"},{"score":{"name":"@s","objective":"mcrpg_manaRegen"},"color":"aqua"},{"text":"\u2741","color":"aqua"},{"text":" /","color":"gray"},{"text":"1.5","color":"green"},{"text":"s","color":"red"},{"text":"]","color":"gray"},{"text":"\n"}]
 
-tellraw @s ["",{"text":"[","color":"gray","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":"+","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":"]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":" Wisdom","color":"light_purple"},{"text":":","color":"gray"},{"text":" "},{"score":{"name":"@s","objective":"mcrpg_casting"},"color":"aqua"},{"text":"\n"}]
+tellraw @s ["",{"text":"[","color":"gray","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":"+","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":"]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 5"},"hoverEvent":{"action":"show_text","contents":[{"text":"+2%","color":"yellow"},{"text":" Magic Damage","color":"blue"}]}},{"text":" Casting","color":"light_purple"},{"text":":","color":"gray"},{"text":" "},{"score":{"name":"@s","objective":"mcrpg_casting"},"color":"aqua"},{"text":" [","color":"gray"},{"text":"+","color":"blue"},{"score":{"name":".magic_dmg_boost","objective":"mcrpg"},"color":"aqua"},{"text":"% magic damage","color":"blue"},{"text":"]","color":"gray"},{"text":"\n"}]
 
 execute if entity @s[tag=mcrpg_no_atr_stats] run function mcrpg:level/text/stat_menu/enable_atr
 execute unless entity @s[tag=mcrpg_no_atr_stats] run function mcrpg:level/text/stat_menu/disable_atr

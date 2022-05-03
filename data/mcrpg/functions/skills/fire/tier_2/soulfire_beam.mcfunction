@@ -9,6 +9,8 @@ scoreboard players set @s mcrpg_rcdist 0
 
 tag @s remove mcrpg_caster
 
+function mcrpg:level/calc/set_casting_dmg
+
 function mcrpg:damage/type/normal
 function mcrpg:damage/type/magic
 function mcrpg:damage/mobs
