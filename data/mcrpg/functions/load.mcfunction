@@ -140,7 +140,13 @@ scoreboard objectives add mcrpg_z dummy
 scoreboard objectives add mcrpg_xp_req dummy
 execute as @a unless score @s mcrpg_xp_req = @s mcrpg_xp_req run function mcrpg:level/calc/set_xp_req
 
+# scrollable menu variables
+scoreboard objectives add mcrpg_menu_x dummy
+scoreboard objectives add mcrpg_menu_y dummy
+scoreboard objectives add mcrpg_menu_width dummy
+scoreboard objectives add mcrpg_menu_height dummy
 
+data modify storage mcrpg chars set value []
 
 scoreboard objectives add mcrpg_cd dummy
 scoreboard players set @a mcrpg_cd 0

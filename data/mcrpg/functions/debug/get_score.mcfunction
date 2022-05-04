@@ -1,0 +1,2 @@
+tellraw @s ["x: ",{"score":{"name": "@s", "objective": "mcrpg_menu_x"}},", y: ",{"score":{"name": "@s", "objective": "mcrpg_menu_y"}},", w: ",{"score":{"name": "@s", "objective": "mcrpg_menu_width"}},", h: ",{"score":{"name": "@s", "objective": "mcrpg_menu_height"}}]
+tellraw @s [".x1: ",{"score":{"name": ".x1", "objective": "mcrpg"}},", .x2: ",{"score":{"name": ".x2", "objective": "mcrpg"}},", .y1: ",{"score":{"name": ".y1", "objective": "mcrpg"}},", .y2: ",{"score":{"name": ".y2", "objective": "mcrpg"}}]

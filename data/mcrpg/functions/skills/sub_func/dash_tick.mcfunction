@@ -4,3 +4,4 @@ execute positioned ~ ~.3 ~ unless block ^ ^ ^1 #mcrpg:weak_or_no_collision run s
 execute unless block ^ ^ ^1 #mcrpg:weak_or_no_collision run scoreboard players remove @s mcrpg_dash 1
 scoreboard players remove @s mcrpg_dash 1
 scoreboard players remove @s mcrpg_mana 5 
+execute unless score @s mcrpg_mana matches 5.. run scoreboard players set @s mcrpg_dash 0
