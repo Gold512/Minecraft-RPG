@@ -48,7 +48,7 @@ This is the basic view used for development and planning
 |                        +------------------+-----------------+
 |                                           |
 |                                    +-----------------+
-|                                    | Dragon's Breath | -------> AOE DOT 
+|                                    | Dragon's Breath | 
 |                                    +-----------------+
 ```
 

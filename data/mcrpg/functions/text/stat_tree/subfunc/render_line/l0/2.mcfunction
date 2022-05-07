@@ -1,0 +1,2 @@
+execute if score .x1 mcrpg matches 16..19 run function mcrpg:text/stat_tree/subfunc/render_line/l1/4
+execute if score .x1 mcrpg matches 20..23 run function mcrpg:text/stat_tree/subfunc/render_line/l1/5

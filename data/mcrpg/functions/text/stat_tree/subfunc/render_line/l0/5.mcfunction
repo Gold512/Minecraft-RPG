@@ -1,0 +1,2 @@
+execute if score .x1 mcrpg matches 40..43 run function mcrpg:text/stat_tree/subfunc/render_line/l1/10
+execute if score .x1 mcrpg matches 44..47 run function mcrpg:text/stat_tree/subfunc/render_line/l1/11
