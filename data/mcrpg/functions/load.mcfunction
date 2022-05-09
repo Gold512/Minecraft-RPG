@@ -99,6 +99,14 @@ scoreboard objectives add mcrpg_spend_stats trigger
 # constants
 scoreboard objectives add mcrpg_const dummy
 
+scoreboard players set #1000000000 mcrpg_const 1000000000
+scoreboard players set #100000000 mcrpg_const 100000000
+scoreboard players set #10000000 mcrpg_const 10000000
+
+scoreboard players set #1000000 mcrpg_const 1000000
+scoreboard players set #100000 mcrpg_const 100000
+scoreboard players set #10000 mcrpg_const 10000
+
 scoreboard players set #1000 mcrpg_const 1000
 scoreboard players set #100 mcrpg_const 100
 scoreboard players set #10 mcrpg_const 10
