@@ -7,8 +7,8 @@ the root tag will be Item.tag.mcrpg
 key | type | description
 --- | ---  | ---
 `skills` | an `Array` of [`skill objects`](#skill-object) | what active skills the item should have
-`id`     | `String` | the snakecase name of the item
-`name` | `String` | a text component containing the name of the item to display (with formatting etc)
+`name`     | `String` | the snakecase name of the item
+`displayName` | `String` | a text component containing the name of the item to display (with formatting etc)
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
 `description` | `String` | text component stored as string which will be the description of the object
 
