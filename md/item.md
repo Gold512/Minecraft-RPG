@@ -10,7 +10,7 @@ key | type | description
 `name`     | `String` | the snakecase name of the item
 `displayName` | `String` | a text component containing the name of the item to display (with formatting etc)
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
-`description` | `String` | text component stored as string which will be the description of the object
+`description` | `Text Component` | a text component which will be the description of the object (directly copied into item name)
 
 ## skill object 
 key | type | description
