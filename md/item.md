@@ -8,7 +8,7 @@ key | type | description
 --- | ---  | ---
 `skills` | an `Array` of [`skill objects`](#skill-object) | what active skills the item should have
 `name`     | `String` | the snakecase name of the item
-`displayName` | `String` | a text component containing the name of the item to display (with formatting etc)
+`displayName` | `String` | a text component string containing the name of the item to display (with formatting etc)
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
 `description` | `Text Component` | a text component which will be the description of the object (directly copied into item name)
 
