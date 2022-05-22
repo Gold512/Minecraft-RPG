@@ -3,6 +3,7 @@ data modify entity @s Item.tag.display.Lore append value "{\"text\":\"Level 1 Di
 
 Characters:
     - Mana: ❁
+    - Cast time/Cooldown: ⌛
     - Tick: ☑
     - Cross: ☒
     - Empty: ☐

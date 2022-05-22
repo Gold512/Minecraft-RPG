@@ -1,0 +1,38 @@
+[
+    {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+            [
+                [
+                    {"text":"","italic":false}, 
+                    {
+                        "nbt": "skills[0].displayName",
+                        "storage": "minecraft:mcrpg",
+                        "interpret": true,
+                        "underlined": true,
+                        "extra": [
+                            {"text":" ","underlined":false}
+                        ]
+                    },
+                    {
+                        "nbt": "skills[0].mana",
+                        "storage": "minecraft:mcrpg",
+                        "color": "blue",
+                        "extra": [
+                            "❁ "
+                        ]
+                    },
+                    {
+                        "nbt": "skills[0].cd",
+                        "storage": "minecraft:mcrpg",
+                        "color": "green",
+                        "extra": [
+                            "⌛"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    }
+]

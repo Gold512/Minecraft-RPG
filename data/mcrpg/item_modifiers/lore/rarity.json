@@ -1,0 +1,39 @@
+[
+    {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+            [
+                [
+                    {"text":"","italic":false}, 
+                    {
+                        "nbt": "temp.name",
+                        "storage": "minecraft:mcrpg",
+                        "interpret": true,
+                        "extra": [
+                            {
+                                "text": " [",
+                                "color": "gray",
+                                "underline": false,
+                                "italic": false,
+                                "bold": false
+                            },
+                            {
+                                "nbt": "temp.value",
+                                "storage": "minecraft:mcrpg",
+                                "bold": false
+                            },
+                            {
+                                "text": "]",
+                                "color": "gray",
+                                "underline": false,
+                                "italic": false,
+                                "bold": false
+                            }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    }
+]

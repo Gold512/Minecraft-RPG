@@ -1,0 +1,2 @@
+data modify storage mcrpg item.tag.display.Lore append value '[{"text":"","italic":false},{"text":"description","color":"aqua"},{"text":":","color":"gray"}]'
+data modify storage mcrpg item.tag.display.Lore append from storage mcrpg item.tag.mcrpg.description[]
