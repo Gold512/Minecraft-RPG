@@ -1,6 +1,6 @@
 # function mcrpg:book/auto_update
-execute as @a[predicate=mcrpg:offhand] at @s run function mcrpg:event/subfunc/switch/oh
-execute as @a[predicate=mcrpg:mainhand] at @s run function mcrpg:event/subfunc/switch/mh
+execute as @a[predicate=mcrpg:offhand] at @s run function mcrpg:event/switch/oh
+execute as @a[predicate=mcrpg:mainhand] at @s run function mcrpg:event/switch/mh
 
 execute as @a[scores={mcrpg_coas_use=1..}] at @s run function mcrpg:event/rclick
 

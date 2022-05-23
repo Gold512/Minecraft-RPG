@@ -1,0 +1,1 @@
+function mcrpg:event/subfunc/switch_skill/get_skill_at_index/l1/l1_0

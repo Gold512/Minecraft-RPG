@@ -1,0 +1,2 @@
+execute if score .hand mcrpg matches 1 store result score .skill_index mcrpg run data get entity @s SelectedItem.tag.mcrpg.skill_index
+execute if score .hand mcrpg matches 2 store result score .skill_index mcrpg run data get entity @s Inventory[{Slot: -106b}].tag.mcrpg.skill_index
