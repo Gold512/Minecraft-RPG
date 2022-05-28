@@ -158,3 +158,8 @@ data modify storage mcrpg chars set value []
 
 scoreboard objectives add mcrpg_cd dummy
 scoreboard players set @a mcrpg_cd 0
+
+# skill casting scoreboards
+scoreboard objectives add mcrpg_skill_id dummy
+scoreboard objectives add mcrpg_skill_cd dummy
+scoreboard objectives add mcrpg_skill_mana dummy
