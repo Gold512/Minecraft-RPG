@@ -111,6 +111,8 @@ scoreboard players set #1000 mcrpg_const 1000
 scoreboard players set #100 mcrpg_const 100
 scoreboard players set #10 mcrpg_const 10
 
+scoreboard players set #1 mcrpg_const 1
+
 scoreboard players set #-1 mcrpg_const -1
 scoreboard players set #50 mcrpg_const 50
 scoreboard players set #40 mcrpg_const 40
@@ -162,4 +164,5 @@ scoreboard players set @a mcrpg_cd 0
 # skill casting scoreboards
 scoreboard objectives add mcrpg_skill_id dummy
 scoreboard objectives add mcrpg_skill_cd dummy
+scoreboard objectives add mcrpg_skill_progress dummy
 scoreboard objectives add mcrpg_skill_mana dummy

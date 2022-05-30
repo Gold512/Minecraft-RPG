@@ -7,7 +7,7 @@ particle sweep_attack ~ ~.2 ~ 2 2 2 .05 16 normal @a[tag=!mcrpg_ldm]
 scoreboard players operation .id mcrpg_killer_id = @s mcrpg_killer_id
 
 scoreboard players set @e[distance=.2..2] mcrpg_normal_dmg 2
-execute as @e[distance=.2..2] run function mcrpg:skills/wind/subfunc/whirlwind_hit
+execute as @e[distance=.2..2] run function mcrpg:skills/air/subfunc/whirlwind_hit
 
 function mcrpg:level/calc/set_casting_dmg
 
@@ -15,10 +15,10 @@ function mcrpg:damage/type/normal
 
 function mcrpg:damage/mobs
 
-execute unless score @s mcrpg_sid = @s mcrpg_sid run function mcrpg:skills/wind/subfunc/add_id
+execute unless score @s mcrpg_sid = @s mcrpg_sid run function mcrpg:skills/air/subfunc/add_id
 
 tag @s add caster
-execute anchored eyes as @e[type=#impact_projectiles,distance=.2..4] unless score @s mcrpg_sid = @s mcrpg_sid anchored feet run function mcrpg:skills/wind/subfunc/push_away
+execute anchored eyes as @e[type=#impact_projectiles,distance=.2..4] unless score @s mcrpg_sid = @s mcrpg_sid anchored feet run function mcrpg:skills/air/subfunc/push_away
 tag @s remove caster
 
 scoreboard players remove @s mcrpg_mana 75

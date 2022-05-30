@@ -14,9 +14,9 @@ scoreboard players operation .bx mcrpg -= .ax mcrpg
 scoreboard players operation .by mcrpg -= .ay mcrpg
 scoreboard players operation .bz mcrpg -= .az mcrpg
 
-execute if entity @s[type=#mcrpg:fireballs] run function mcrpg:skills/wind/subfunc/push_away/power
+execute if entity @s[type=#mcrpg:fireballs] run function mcrpg:skills/air/subfunc/push_away/power
 
 # if fireballs do not have motion modified, they will curve
-function mcrpg:skills/wind/subfunc/push_away/motion
+function mcrpg:skills/air/subfunc/push_away/motion
 
 scoreboard players operation @s mcrpg_sid = @p[tag=caster] mcrpg_sid

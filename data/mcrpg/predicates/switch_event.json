@@ -11,7 +11,18 @@
               "minecraft:carrot_on_a_stick",
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{mcrpg: {event:{currentHand:2}}}"
+            "nbt": "{mcrpg: {event: {currentHand: 2}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "nbt": "{mcrpg: {event: {currentHand: 1}}}"
           }
         }
       }

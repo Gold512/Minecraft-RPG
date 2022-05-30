@@ -11,7 +11,7 @@
               "minecraft:carrot_on_a_stick",
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{hasSwitchEvent: 1}"
+            "nbt": "{mcrpg: {event:{currentHand:1}}}"
           }
         }
       }

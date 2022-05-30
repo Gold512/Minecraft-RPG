@@ -1,2 +1,2 @@
-execute if score @s mcrpg_st_dm matches 1 run function mcrpg:text/settings/create/detail_mode/boxes
+execute if score @s mcrpg_st_dm matches 1 run function mcrpg:text/settings/create/detail_mode/child
 execute unless score @s mcrpg_st_dm matches 1 run tellraw @s ["",{"text":"\u25b6","clickEvent":{"action":"run_command","value":"/trigger mcrpg_btn set 11"}},{"text":" "},{"text":"Detail Mode","hoverEvent":{"action":"show_text","contents":"Amount of particles to display in spells or skills"}},{"text": "\n\n"}]

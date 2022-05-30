@@ -38,18 +38,18 @@ id | name
 `101302` | dragon_spray
 `101303` | dragon_breath
 ---
-## Wind: `102`...
+## Air: `103`...
 
 ### Tier 1 (Wind) `1021`
 id | name
 ---: | ---
-`102101` | boost
-`102102` | wind_blade
-`102103` | whirlwind
-`102104` | wind_blast
+`103101` | boost
+`103102` | wind_blade
+`103103` | whirlwind
+`103104` | wind_blast
 
 ### Tier 2 (Wind) `1022`
 id | name
 ---: | ---
-`102201` | dash
-`102202`
+`103201` | dash
+`103202`

@@ -1,4 +1,4 @@
-scoreboard players remove @s mcrpg_xp 20
+scoreboard players operation @s mcrpg_xp -= @s mcrpg_xp_req
 
 scoreboard players add @s mcrpg_level 1
 
