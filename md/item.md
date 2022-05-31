@@ -5,6 +5,9 @@ the root tag will be Item.tag.mcrpg
 
 private properties are properties that will not be set upon creation of the item but will be used within the program itself
 
+> Note: the skill being displayed in the item is optional and may be disabled in settings   
+> this will be handled by the lore generator and consequently will not require a property to specify its state
+
 ## mcrpg object
 key | type | description
 --- | ---  | ---
@@ -14,7 +17,7 @@ key | type | description
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
 `description` | `Array` of `Text Component`s | an array of text components which will be the description of the object (each element of the array is a line)
 `event` | [`event object`](#event-object) | Object describing the events that can be triggered by the item
-
+`magic` | [`magic object`](#magic-object) | object describing the properties of magic skills which will be available for use in conjunction with the item
 
 ---
 private properties
@@ -47,3 +50,15 @@ private properties
 key | type | description
 --- | ---  | ---
 `currentHand` | `Int` | the current hand of the item (1 for mainhand, 2 for offhand)
+
+## magic object
+> If present indicates that the item interacts with the magic system and allows access the spell selection menu
+key | type | description
+--- | ---- | ---
+`element` | [`Compound Object`](#compound-object) | the element of the wand 
+`tier` | `Int` | the tier of the item 
+
+## compound object 
+key | type | description
+`id` | `Int` | the numerical id of the object (mostly for internal usage)
+`name` | `String` | the name of the object (to display)
