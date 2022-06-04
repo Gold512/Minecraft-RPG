@@ -172,3 +172,5 @@ scoreboard objectives add mcrpg_skill_mana_step dummy
 scoreboard objectives add mcrpg_x_pos dummy
 scoreboard objectives add mcrpg_y_pos dummy
 scoreboard objectives add mcrpg_z_pos dummy
+
+scoreboard objectives add mcrpg_menu dummy "Current Menu" 

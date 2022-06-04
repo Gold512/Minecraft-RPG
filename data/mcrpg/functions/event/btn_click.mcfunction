@@ -7,5 +7,6 @@ execute if score @s mcrpg_btn matches 1000..1099 run function mcrpg:skills/ender
 # skill tree
 execute if score @s mcrpg_btn matches 10000..10999 run function mcrpg:text/stat_tree/btn
 
+execute if score @s mcrpg_btn matches 300..399 run function mcrpg:text/equip/btn
 scoreboard players reset @s mcrpg_btn
 scoreboard players enable @s mcrpg_btn
