@@ -11,4 +11,3 @@ function mcrpg:level/calc/set_casting_dmg
 function mcrpg:damage/type/normal
 function mcrpg:damage/mobs
 
-scoreboard players remove @s mcrpg_mana 0

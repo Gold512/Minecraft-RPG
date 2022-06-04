@@ -1,4 +1,3 @@
-scoreboard players operation @s mcrpg_mana -= @s mcrpg_skill_mana
 scoreboard players operation .skill_id mcrpg = @s mcrpg_skill_id
 
 function mcrpg:item/skill/main

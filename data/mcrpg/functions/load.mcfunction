@@ -78,8 +78,8 @@ scoreboard objectives add mcrpg_uuid3 dummy
 scoreboard objectives add mcrpg_uuid4 dummy
 
 # triggers
-scoreboard objectives add mcrpg_ldm trigger
-scoreboard objectives add mcrpg_settings_menu trigger
+scoreboard objectives add mcrpg_settings_menu trigger "Settings Menu"
+scoreboard objectives add mcrpg_equip trigger "Equip Menu"
 
 # player damage module
 function mcrpg:damage/player/init
@@ -156,7 +156,7 @@ scoreboard objectives add mcrpg_menu_y dummy
 scoreboard objectives add mcrpg_menu_width dummy
 scoreboard objectives add mcrpg_menu_height dummy
 
-data modify storage mcrpg chars set value []
+data modify storage minecraft:mcrpg chars set value []
 
 scoreboard objectives add mcrpg_cd dummy
 scoreboard players set @a mcrpg_cd 0
@@ -166,3 +166,9 @@ scoreboard objectives add mcrpg_skill_id dummy
 scoreboard objectives add mcrpg_skill_cd dummy
 scoreboard objectives add mcrpg_skill_progress dummy
 scoreboard objectives add mcrpg_skill_mana dummy
+scoreboard objectives add mcrpg_skill_mana_step dummy
+
+# pos scoreboards
+scoreboard objectives add mcrpg_x_pos dummy
+scoreboard objectives add mcrpg_y_pos dummy
+scoreboard objectives add mcrpg_z_pos dummy

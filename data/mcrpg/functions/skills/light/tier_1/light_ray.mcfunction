@@ -15,4 +15,4 @@ function mcrpg:damage/type/normal
 function mcrpg:damage/mobs
 
 playsound block.end_portal_frame.fill block @a ~ ~ ~ 1 1.4
-scoreboard players remove @s mcrpg_mana 10
+

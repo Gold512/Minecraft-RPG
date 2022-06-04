@@ -1,1 +1,1 @@
-data modify storage mcrpg item.tag.display.Name set from storage mcrpg item.tag.mcrpg.displayName 
+data modify storage minecraft:mcrpg item.tag.display.Name set from storage minecraft:mcrpg item.tag.mcrpg.displayName 

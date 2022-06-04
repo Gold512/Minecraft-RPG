@@ -3,5 +3,5 @@ execute positioned ~ ~.8 ~ positioned ^ ^ ^-.5 run particle cloud ~ ~ ~ .2 .2 .2
 execute positioned ~ ~.3 ~ unless block ^ ^ ^1 #mcrpg:weak_or_no_collision run scoreboard players set @s mcrpg_dmg 1
 execute unless block ^ ^ ^1 #mcrpg:weak_or_no_collision run scoreboard players remove @s mcrpg_dash 1
 scoreboard players remove @s mcrpg_dash 1
-scoreboard players remove @s mcrpg_mana 5 
+ 
 execute unless score @s mcrpg_mana matches 5.. run scoreboard players set @s mcrpg_dash 0

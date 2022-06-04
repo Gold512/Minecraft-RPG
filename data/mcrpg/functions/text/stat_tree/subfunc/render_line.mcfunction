@@ -7,4 +7,4 @@ execute if score .x1 mcrpg matches 32..39 run function mcrpg:text/stat_tree/subf
 execute if score .x1 mcrpg matches 40..47 run function mcrpg:text/stat_tree/subfunc/render_line/l0/5
 
 # clear storage 
-data modify storage mcrpg chars set value []
+data modify storage minecraft:mcrpg chars set value []

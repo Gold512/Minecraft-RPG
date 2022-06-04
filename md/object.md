@@ -58,7 +58,18 @@ key | type | description
 `element` | [`Compound Object`](#compound-object) | the element of the wand 
 `tier` | `Int` | the tier of the item 
 
+## cooldown object
+> Note: cooldown objects will be resolved to integers   
+> The values in between final and base will be used for linear interpolation
+key | type | description
+--- | ---- | ----
+`base_time` | `Int` | 
+`final_time` | `Int` | 
+`base_casting` | `Int` | 
+`final_casting` | `Int` | 
+
 ## compound object 
 key | type | description
+--- | ---- | ---
 `id` | `Int` | the numerical id of the object (mostly for internal usage)
-`name` | `String` | the name of the object (to display)
+`name` | `JSON String` | the name of the object (to display)

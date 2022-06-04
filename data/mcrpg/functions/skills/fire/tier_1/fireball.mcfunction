@@ -3,4 +3,3 @@ data modify entity @e[type=fireball,tag=mcrpg_projectile,limit=1] Owner set from
 scoreboard players set @s mcrpg_pVel 110
 execute positioned ~ 0 ~ run function mcrpg:skills/sub_func/shoot_foward
 playsound block.fire.extinguish block @a ~ ~ ~
-scoreboard players remove @s mcrpg_mana 60

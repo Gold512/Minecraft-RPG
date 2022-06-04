@@ -21,4 +21,3 @@ tag @s add caster
 execute anchored eyes as @e[type=#impact_projectiles,distance=.2..4] unless score @s mcrpg_sid = @s mcrpg_sid anchored feet run function mcrpg:skills/air/subfunc/push_away
 tag @s remove caster
 
-scoreboard players remove @s mcrpg_mana 75

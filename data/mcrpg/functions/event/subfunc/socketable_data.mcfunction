@@ -1,1 +1,1 @@
-data modify storage mcrpg attack set value "socketable"
+data modify storage minecraft:mcrpg attack set value "socketable"
