@@ -1,0 +1,2 @@
+data modify storage mcrpg db set value {}
+data modify storage mcrpg db.fire set value [{"id":101101,"name":"small_fireball","displayName":"\"Small Fireball\"","mana":10,"cd":2,"category":1},{"id":101102,"name":"fire_beam","displayName":"\"Fire Beam\"","mana":25,"cd":5,"category":1},{"id":101103,"name":"eruption","displayName":"\"Eruption\"","mana":80,"cd":5,"category":1},{"id":101104,"name":"large_fireball","displayName":"\"Large Fireball\"","mana":60,"cd":7,"category":1},{"id":101105,"name":"flame_spray","displayName":"\"Flame Spray\"","mana":45,"cd":6,"category":1}]

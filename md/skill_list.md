@@ -59,9 +59,9 @@ id       | name            | category | tier | mana | cd    | cd (max)
 id       | name               | mana | cd    | cd (max)
 -------: | ---------------    | ---: | ----: | ---: 
 `101201` | soulfire_beam      |  120 |       |  
-`101202` | soulfire_shockwave | 
+`101202` | soulfire_shockwave |  350 
 `101203` | soulfire_blast     |  250 | 
-`101204` | soulfire_spray     |  
+`101204` | soulfire_spray     |  400
 `101204` | recursive_sf_beam  |  500 |
 
 > Note recursive soulfire beam might be moved to water 

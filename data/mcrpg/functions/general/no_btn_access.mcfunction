@@ -1,0 +1,1 @@
+tellraw @s [{"text": "You do not have access to this button", "color": "red"}]

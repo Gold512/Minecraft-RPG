@@ -1,0 +1,1 @@
+data modify storage mcrpg skills append from storage mcrpg db.fire[]
