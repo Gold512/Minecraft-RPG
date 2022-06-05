@@ -1,5 +1,5 @@
 scoreboard players add @s mcrpg_skill_progress 1
-execute if score @s mcrpg_skill_progress = @s mcrpg_skill_cd run scoreboard players operation @s mcrpg_mana -= @s mcrpg_skill_mana
+execute if score @s mcrpg_skill_progress = @s mcrpg_skill_ct run scoreboard players operation @s mcrpg_mana -= @s mcrpg_skill_mana
 scoreboard players operation @s mcrpg_mana -= @s mcrpg_skill_mana_step
 
 # cast interuption due to knockback

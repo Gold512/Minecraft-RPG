@@ -11,3 +11,5 @@ execute store result entity @e[type=marker,limit=1,tag=destination] Pos[2] doubl
 
 tp @s @e[type=marker,limit=1,tag=destination]
 kill @e[type=marker,limit=1,tag=destination]
+
+scoreboard players reset @s mcrpg_menu

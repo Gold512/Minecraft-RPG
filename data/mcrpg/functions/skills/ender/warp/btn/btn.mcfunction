@@ -1,7 +1,4 @@
-execute if score @s mcrpg_btn matches 1000..1010 run function mcrpg:skills/ender/warp/btn/x
-execute if score @s mcrpg_btn matches 1011..1020 run function mcrpg:skills/ender/warp/btn/y
-execute if score @s mcrpg_btn matches 1021..1030 run function mcrpg:skills/ender/warp/btn/z
+execute unless score @s mcrpg_menu matches 1000 run function mcrpg:general/no_btn_access
 
-execute if score @s mcrpg_btn matches 1000..1030 run function mcrpg:skills/ender/warp/open_menu
-
-execute if score @s mcrpg_btn matches 1031 run function mcrpg:skills/ender/warp/btn/teleport
+# execute this second since the teleport function removes the score 
+execute if score @s mcrpg_menu matches 1000 run function mcrpg:skills/ender/warp/btn/success

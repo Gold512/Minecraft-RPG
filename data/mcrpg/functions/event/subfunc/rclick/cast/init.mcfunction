@@ -1,5 +1,5 @@
 execute store result score .skill_id mcrpg run data get storage minecraft:mcrpg skill.id 
-execute store result score .skill_cd mcrpg run data get storage minecraft:mcrpg skill.cd
+execute store result score .skill_cd mcrpg run data get storage minecraft:mcrpg skill.ct
 execute store result score .skill_mana mcrpg run data get storage minecraft:mcrpg skill.mana
 
 scoreboard players set .same mcrpg 0

@@ -163,7 +163,7 @@ scoreboard players set @a mcrpg_cd 0
 
 # skill casting scoreboards
 scoreboard objectives add mcrpg_skill_id dummy
-scoreboard objectives add mcrpg_skill_cd dummy
+scoreboard objectives add mcrpg_skill_ct dummy
 scoreboard objectives add mcrpg_skill_progress dummy
 scoreboard objectives add mcrpg_skill_mana dummy
 scoreboard objectives add mcrpg_skill_mana_step dummy
@@ -175,5 +175,10 @@ scoreboard objectives add mcrpg_z_pos dummy
 
 scoreboard objectives add mcrpg_menu dummy "Current Menu" 
 
+# stamina
+scoreboard objectives add mcrpg_stamina dummy
+scoreboard objectives add mcrpg_maxStamina dummy
+scoreboard objectives add mcrpg_staminaRegen dummy 
 
 function mcrpg:general/db/main
+function mcrpg:level/get_xp/load

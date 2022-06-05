@@ -1,5 +1,5 @@
 scoreboard players operation @s mcrpg_skill_id = .skill_id mcrpg
-scoreboard players operation @s mcrpg_skill_cd = .skill_cd mcrpg
+scoreboard players operation @s mcrpg_skill_ct = .skill_cd mcrpg
 scoreboard players operation @s mcrpg_skill_mana = .skill_mana mcrpg
 scoreboard players set @s mcrpg_skill_progress 0
 

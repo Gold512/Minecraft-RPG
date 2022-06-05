@@ -1,0 +1,31 @@
+# scoreboards for tracking what was Killed
+
+scoreboard objectives add mcrpg_killed_endermite killed:endermite
+scoreboard objectives add mcrpg_killed_silverfish killed:silverfish
+scoreboard objectives add mcrpg_killed_slime killed:slime
+scoreboard objectives add mcrpg_killed_magma_cube killed:magma_cube
+scoreboard objectives add mcrpg_killed_zombie killed:zombie
+scoreboard objectives add mcrpg_killed_skeleton killed:skeleton
+scoreboard objectives add mcrpg_killed_spider killed:spider
+scoreboard objectives add mcrpg_killed_drowned killed:drowned
+scoreboard objectives add mcrpg_killed_creeper killed:creeper
+scoreboard objectives add mcrpg_killed_zombie_piglin killed:zombified_piglin
+scoreboard objectives add mcrpg_killed_piglin killed:piglin
+scoreboard objectives add mcrpg_killed_blaze killed:blaze
+scoreboard objectives add mcrpg_killed_ghast killed:ghast
+scoreboard objectives add mcrpg_killed_cave_spider killed:cave_spider
+scoreboard objectives add mcrpg_killed_guardian killed:guardian
+scoreboard objectives add mcrpg_killed_piglin_brute killed:piglin_brute
+scoreboard objectives add mcrpg_killed_vindicator killed:vindicator
+scoreboard objectives add mcrpg_killed_wither_skeleton killed:wither_skeleton
+scoreboard objectives add mcrpg_killed_vex killed:vex
+scoreboard objectives add mcrpg_killed_hoglin killed:hoglin
+scoreboard objectives add mcrpg_killed_shulker killed:shulker
+scoreboard objectives add mcrpg_killed_enderman killed:enderman
+scoreboard objectives add mcrpg_killed_ravager killed:ravager
+scoreboard objectives add mcrpg_killed_witch killed:witch
+scoreboard objectives add mcrpg_killed_evoker killed:evoker
+scoreboard objectives add mcrpg_killed_illusioner killed:illusioner
+scoreboard objectives add mcrpg_killed_elder_guardian killed:elder_guardian
+scoreboard objectives add mcrpg_killed_ender_dragon killed:ender_dragon
+scoreboard objectives add mcrpg_killed_wither killed:wither

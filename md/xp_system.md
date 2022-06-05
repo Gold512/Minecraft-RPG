@@ -14,15 +14,16 @@ skeleton | 3
 spider | 3 
 drowned | 4
 creeper | 4
-zombie/regular piglin | 5
+zombiefied piglin | 5
+piglin | 5
 blaze | 5
 ghast | 5
 cave spider | 5
 guardian | 6
 piglin brute | 8
 vindicator | 8
-wither skeletons | 8
-vex | 8
+wither skeleton | 8
+vex | 10
 zombie/normal hoglins | 8
 shulker | 8
 endermen | 9

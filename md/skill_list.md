@@ -47,7 +47,7 @@ since the amount of xp to go from level `0` to level _`n`_ is given by `f(n) = n
 
 ## Fire: `101`...
 ### Category 1 (Fire) `1011`...
-id       | name            | category | tier | mana | cd    | cd (max)
+id       | name            | category | tier | mana | ct    | ct (max)
 -------: | --------------- | ------   | ---- | ---: | ----: | ---: 
 `101101` | small_fireball  |          |      |   10 |     2 | 
 `101102` | fire_beam       |          |      |   25 |     4 | 
@@ -56,7 +56,7 @@ id       | name            | category | tier | mana | cd    | cd (max)
 `101105` | flame_spray     |          |      |   45 |     6 | 
 
 ### Category 2 (SoulFire) `1012`...
-id       | name               | mana | cd    | cd (max)
+id       | name               | mana | ct    | ct (max)
 -------: | ---------------    | ---: | ----: | ---: 
 `101201` | soulfire_beam      |  120 |       |  
 `101202` | soulfire_shockwave |  350 
@@ -67,7 +67,7 @@ id       | name               | mana | cd    | cd (max)
 > Note recursive soulfire beam might be moved to water 
 
 ### Category 3 (DragonFire) `1013`...
-id       | name               | mana | cd    | cd (max)
+id       | name               | mana | ct    | ct (max)
 -------: | ---------------    | ---: | ----: | ---: 
 `101301` | dragon_fire_beam
 `101302` | dragon_spray

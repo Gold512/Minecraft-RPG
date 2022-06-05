@@ -24,7 +24,7 @@
                         ]
                     },
                     {
-                        "nbt": "skills[0].cd",
+                        "nbt": "skills[0].ct",
                         "storage": "minecraft:mcrpg",
                         "color": "green",
                         "extra": [

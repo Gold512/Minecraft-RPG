@@ -5,6 +5,10 @@ scoreboard players set @s mcrpg_health 0
 scoreboard players set @s mcrpg_strength 0
 scoreboard players set @s mcrpg_level 0
 scoreboard players set @s mcrpg_xp 0
+
+scoreboard players set @s mcrpg_xp_req 20 
+scoreboard players set @s mcrpg_staminaRegen 5 
+scoreboard players set @s mcrpg_stamina 100
 function mcrpg:level/calc_stats
 
 # update player health
