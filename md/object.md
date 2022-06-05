@@ -17,7 +17,7 @@ key | type | description
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
 `description` | `Array` of `Text Component`s | an array of text components which will be the description of the object (each element of the array is a line)
 `event` | [`event object`](#event-object) | Object describing the events that can be triggered by the item
-`magic` | [`magic object`](#magic-object) | object describing the properties of magic skills which will be available for use in conjunction with the item
+`skillNature` | [`magic object`](#magic-object) | object describing the properties of magic skills which will be available for use in conjunction with the item
 
 ---
 private properties
@@ -52,16 +52,19 @@ key | type | description
 --- | ---  | ---
 `currentHand` | `Int` | the current hand of the item (1 for mainhand, 2 for offhand)
 
-## magic object
+## skill nature object
 > If present indicates that the item interacts with the magic system and allows access the spell selection menu
+
 key | type | description
 --- | ---- | ---
-`element` | [`Compound Object`](#compound-object) | the element of the wand 
-`tier` | `Int` | the tier of the item 
+`type` | [`Compound Object`](#compound-object) | the type of the skills 
+`element` | [`Compound Object`](#compound-object) | the element of the item (mostly for magic) 
+`category` | `Int` | the highest category of skills that the item can use (so far mostly for magic)
 
 ## cooldown object
 > Note: cooldown objects will be resolved to integers   
 > The values in between final and base will be used for linear interpolation
+
 key | type | description
 --- | ---- | ----
 `base_time` | `Int` | 

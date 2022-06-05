@@ -47,13 +47,13 @@ since the amount of xp to go from level `0` to level _`n`_ is given by `f(n) = n
 
 ## Fire: `101`...
 ### Category 1 (Fire) `1011`...
-id       | name            | category | tier | mana | ct    | ct (max)
--------: | --------------- | ------   | ---- | ---: | ----: | ---: 
-`101101` | small_fireball  |          |      |   10 |     2 | 
-`101102` | fire_beam       |          |      |   25 |     4 | 
-`101103` | eruption        |          |      |   80 |     5 | 
-`101104` | large_fireball  |          |      |   60 |     7 | 
-`101105` | flame_spray     |          |      |   45 |     6 | 
+id       | name            | tier | mana | ct    | ct (max)
+-------: | --------------- | ---- | ---: | ----: | ---: 
+`101101` | small_fireball  |      |   10 |     2 | 
+`101102` | fire_beam       |      |   25 |     4 | 
+`101103` | eruption        |      |   80 |     5 | 
+`101104` | large_fireball  |      |   60 |     7 | 
+`101105` | flame_spray     |      |   45 |     6 | 
 
 ### Category 2 (SoulFire) `1012`...
 id       | name               | mana | ct    | ct (max)
@@ -75,7 +75,11 @@ id       | name               | mana | ct    | ct (max)
 `101304` | dragon_fireball | 12500
 ---
 ## Water: `102`...
-### Category 1 () `1021`...
+### Category 1 (Water) `1021`...
+id       | name            | tier | mana | ct    | ct (max)
+-------: | --------------- | ---- | ---: | ----: | ---: 
+`102101` | water_beam      |      |   40 |     5 | 
+`102102` | water_missile   |      |   80 |     3 | 
 
 ---
 ## Air: `103`...
@@ -93,3 +97,12 @@ id | name
 ---: | ---
 `103201` | dash
 `103202`
+
+## Earth: `104`...
+### Category 1 (Earth) `1041`
+
+id       | name            | tier | mana | ct    | ct (max)
+-------: | --------------- | ---- | ---: | ----: | ---: 
+`104101` | dripstone_drop  |      |   40 |     3 | 
+`104102` | spike_launch    |      |   50 |     8 |
+`104103` | earth_shield    |      |   80 |     6 | 

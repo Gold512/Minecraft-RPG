@@ -1,4 +1,4 @@
-particle 
+particle dust 0.761 0 0.631 0 0 ~ ~ ~ .2 .2 .3 128 force @a 
 
 summon marker ~ ~ ~ {Tags:["destination"]}
 
