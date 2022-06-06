@@ -1,4 +1,5 @@
-execute store result score @s mcrpg run data get entity @s Health 1
+execute store result score @s mcrpg run data get entity @s Health 100
+scoreboard players operation @s mcrpg_dmg *= #100 mcrpg_const
 scoreboard players operation @s mcrpg -= @s mcrpg_dmg
 execute if score @s mcrpg matches ..0 run function mcrpg:damage/internal/kill_mob
 execute unless score @s mcrpg matches ..0 run function mcrpg:damage/internal/return_hp

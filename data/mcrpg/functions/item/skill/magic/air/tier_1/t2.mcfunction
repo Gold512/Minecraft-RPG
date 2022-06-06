@@ -1,0 +1,1 @@
+execute if score .skill_id mcrpg matches 103201 run function mcrpg:skills/air/tier_2/dash

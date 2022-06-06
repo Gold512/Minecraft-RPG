@@ -2,7 +2,7 @@ particle soul_fire_flame ~ ~ ~ 0 0 0 0 1 force
 particle soul ~ ~ ~ 0 0 0 0.032 2 force
 
 scoreboard players set .hit mcrpg 0 
-execute as @e[dx=0,tag=!mcrpg_caster,type=!#mcrpg:no_xp] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run function mcrpg:skills/fire/subfunc/soulfire_blast/hit
+execute as @e[dx=0,tag=!caster,type=!#mcrpg:no_xp] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run function mcrpg:skills/fire/subfunc/soulfire_blast/hit
 
 scoreboard players add @s mcrpg_rcdist 1
 

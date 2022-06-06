@@ -58,9 +58,9 @@ id       | name            | tier | mana | ct    | ct (max)
 ### Category 2 (SoulFire) `1012`...
 id       | name               | mana | ct    | ct (max)
 -------: | ---------------    | ---: | ----: | ---: 
-`101201` | soulfire_beam      |  120 |       |  
+`101201` | soulfire_beam      |  120 |    10 |  
 `101202` | soulfire_shockwave |  350 
-`101203` | soulfire_blast     |  250 | 
+`101203` | soulfire_blast     |  250 |    12 | 
 `101204` | soulfire_spray     |  400
 `101204` | recursive_sf_beam  |  500 |
 
@@ -70,9 +70,8 @@ id       | name               | mana | ct    | ct (max)
 id       | name               | mana | ct    | ct (max)
 -------: | ---------------    | ---: | ----: | ---: 
 `101301` | dragon_fire_beam
-`101302` | dragon_spray
-`101303` | dragon_breath
-`101304` | dragon_fireball | 12500
+`101302` | dragon_breath
+`101303` | dragon_fireball    | 5000 |    50 | 
 ---
 ## Water: `102`...
 ### Category 1 (Water) `1021`...
@@ -85,16 +84,16 @@ id       | name            | tier | mana | ct    | ct (max)
 ## Air: `103`...
 
 ### Category 1 (Wind) `1031`
-id | name
----: | ---
-`103101` | boost
-`103102` | wind_blade
-`103103` | whirlwind
-`103104` | wind_blast
+id       | name            | tier | mana | ct    | ct (max)
+-------: | --------------- | ---- | ---: | ----: | ---: 
+`103101` | boost           |      |   60 |     4 | 
+`103102` | wind_blade      |      |   20 |     3 | 
+`103103` | whirlwind       |      |   75 |     6 | 
+`103104` | wind_blast      |      |   50 |     5 | 
 
 ### Category 2 (Wind) `1032`
-id | name
----: | ---
+id       | name            | tier | mana | ct    | ct (max)
+-------: | --------------- | ---- | ---: | ----: | ---: 
 `103201` | dash
 `103202`
 
