@@ -44,6 +44,15 @@ since the amount of xp to go from level `0` to level _`n`_ is given by `f(n) = n
         - [category 2](#category-2-wind-1022)
 
 # Magic `1`...
+id   | element 
+---: | ---
+`1`  | fire 
+`2`  | water
+`3`  | air 
+`4`  | earth
+`5`  | light
+`6`  | dark
+`7`  | ender
 
 ## Fire: `101`...
 ### Category 1 (Fire) `1011`...

@@ -1,5 +1,3 @@
-data modify storage minecraft:mcrpg temp set value {}
-
 data modify storage minecraft:mcrpg temp.value set from storage minecraft:mcrpg item.tag.mcrpg.rarity
 execute store result score .rarity mcrpg run data get storage minecraft:mcrpg temp.value
 
@@ -18,5 +16,3 @@ execute if score .rarity mcrpg matches 5001.. run data modify storage minecraft:
 item modify entity @e[type=armor_stand,tag=text_resolver] weapon.mainhand mcrpg:lore/rarity
 data modify storage minecraft:mcrpg item.tag.display.Lore append from entity @e[type=armor_stand,limit=1,tag=text_resolver] HandItems[0].tag.display.Lore[]
 kill @e[type=armor_stand,tag=text_resolver]
-
-data remove storage minecraft:mcrpg temp

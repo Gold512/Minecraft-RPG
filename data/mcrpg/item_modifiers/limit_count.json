@@ -1,0 +1,9 @@
+[
+  {
+    "function": "minecraft:limit_count",
+    "limit": {
+      "min": 3,
+      "max": 32
+    }
+  }
+]

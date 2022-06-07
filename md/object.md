@@ -17,7 +17,7 @@ key | type | description
 `rarity` | `Int` | the rarity of the item as a number will be used for calculating rarity 
 `description` | `Array` of `Text Component`s | an array of text components which will be the description of the object (each element of the array is a line)
 `event` | [`event object`](#event-object) | Object describing the events that can be triggered by the item
-`skillNature` | [`magic object`](#magic-object) | object describing the properties of magic skills which will be available for use in conjunction with the item
+`skillNature` | [`skill nature object`](#skill-nature-object) | object describing the properties of magic skills which will be available for use in conjunction with the item
 
 ---
 private properties

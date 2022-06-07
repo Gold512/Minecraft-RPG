@@ -5,6 +5,7 @@ execute if entity @s[type=silverfish] run scoreboard players add @p[tag=killer] 
 execute if entity @s[type=slime] run scoreboard players add @p[tag=killer] mcrpg_killed_slime 1
 execute if entity @s[type=magma_cube] run scoreboard players add @p[tag=killer] mcrpg_killed_magma_cube 1
 execute if entity @s[type=zombie] run scoreboard players add @p[tag=killer] mcrpg_killed_zombie 1
+execute if entity @s[type=zombie] run scoreboard players add @p[tag=killer] mcrpg_killed_husk 1
 execute if entity @s[type=skeleton] run scoreboard players add @p[tag=killer] mcrpg_killed_skeleton 1
 execute if entity @s[type=spider] run scoreboard players add @p[tag=killer] mcrpg_killed_spider 1
 execute if entity @s[type=drowned] run scoreboard players add @p[tag=killer] mcrpg_killed_drowned 1

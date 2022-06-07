@@ -11,3 +11,4 @@ execute if score .type mcrpg matches 3 run function mcrpg:item/skill/magic/air
 execute if score .type mcrpg matches 4 run function mcrpg:item/skill/magic/earth
 execute if score .type mcrpg matches 5 run function mcrpg:item/skill/magic/light
 execute if score .type mcrpg matches 6 run function mcrpg:item/skill/magic/dark
+execute if score .type mcrpg matches 7 run function mcrpg:item/skill/magic/ender

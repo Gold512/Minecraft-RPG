@@ -35,6 +35,12 @@ scoreboard players operation @s mcrpg_killed_zombie *= .xp_each mcrpg
 scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_zombie
 scoreboard players reset @s mcrpg_killed_zombie
 
+# zombie
+scoreboard players set .xp_each mcrpg 3
+scoreboard players operation @s mcrpg_killed_husk *= .xp_each mcrpg
+scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_husk
+scoreboard players reset @s mcrpg_killed_husk
+
 # skeleton
 scoreboard players set .xp_each mcrpg 3
 scoreboard players operation @s mcrpg_killed_skeleton *= .xp_each mcrpg

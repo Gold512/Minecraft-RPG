@@ -5,6 +5,7 @@ scoreboard objectives add mcrpg_killed_silverfish killed:silverfish
 scoreboard objectives add mcrpg_killed_slime killed:slime
 scoreboard objectives add mcrpg_killed_magma_cube killed:magma_cube
 scoreboard objectives add mcrpg_killed_zombie killed:zombie
+scoreboard objectives add mcrpg_killed_husk killed:husk
 scoreboard objectives add mcrpg_killed_skeleton killed:skeleton
 scoreboard objectives add mcrpg_killed_spider killed:spider
 scoreboard objectives add mcrpg_killed_drowned killed:drowned

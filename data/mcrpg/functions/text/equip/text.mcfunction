@@ -1,6 +1,6 @@
 
 # main menu 
-tellraw @s {"text":"-----------------------","color":"light_purple"} 
+tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n-----------------------","color":"light_purple"} 
 tellraw @s [{"text":"", "clickEvent": {"action": "run_command", "value": "/trigger mcrpg_btn set 300"}, "extra":[{"text": "[", "color": "gray"}, {"text":"X", "color":"red"}, {"text": "] ", "color": "gray"}]}, {"text":"", "extra":[""]}, {"storage": "mcrpg", "nbt": "skills[].displayName", "interpret": true, "separator": {"text": ", ", "color": "gray"}, "color": "gold"}]
 tellraw @s {"text":"-----------------------","color":"light_purple"} 
 

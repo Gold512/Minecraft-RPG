@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "",
+        "italic": false
+      },
+      {
+        "nbt": "temp.element",
+        "storage": "minecraft:mcrpg",
+        "interpret": true
+      },
+      {
+        "nbt": "temp.color",
+        "storage": "minecraft:mcrpg",
+        "interpret": true,
+        "extra": [
+          {
+            "nbt": "item.tag.mcrpg.displayName",
+            "storage": "minecraft:mcrpg",
+            "interpret": true
+          }
+        ]
+      }
+    ]
+  }
+]
