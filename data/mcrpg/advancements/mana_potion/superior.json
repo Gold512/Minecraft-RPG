@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{mcrpg:{name:\"superior_mana_potion\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mcrpg:item/potion/mana_potion/superior"
+  }
+}

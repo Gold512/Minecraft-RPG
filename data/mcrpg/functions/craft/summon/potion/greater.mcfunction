@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"potion",Count:1,tag:{Potion:"water",mcrpg:{name:"greater_mana_potion", rarity: 1200, displayName:'"Greater Mana Potion"',lore: ['{"text":"Instant Mana IV","color":"blue","italic":false}','{"text":"+3000 Mana","color":"gray","italic":false}']},Enchantments:[{}],HideFlags: 32}}, Tags:["generated_item"]}
+execute as @e[type=item,tag=generated_item] at @s run function mcrpg:general/generate_lore

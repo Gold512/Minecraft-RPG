@@ -24,7 +24,8 @@ piglin brute | 8
 vindicator | 8
 wither skeleton | 8
 vex | 10
-zombie/normal hoglins | 8
+hoglins | 8
+zoglins | 8
 shulker | 8
 endermen | 9
 ravager | 10

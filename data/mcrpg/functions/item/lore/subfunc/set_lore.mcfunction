@@ -1,0 +1,1 @@
+data modify storage mcrpg item.tag.display.Lore append from storage mcrpg item.tag.mcrpg.lore[]

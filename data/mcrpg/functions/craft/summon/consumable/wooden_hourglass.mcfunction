@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{mcrpg:{name:"wooden_hourglass",lore:['{"text":"Crush this hourglass to instantly finish","color":"gray"}','{"text":"casting or clear an active cooldown","color":"gray"}'], rarity: 2000, displayName: '"Wooden Hourglass"'},CustomModelData:3001}}, Tags:["generated_item"]}
+execute as @e[type=item,tag=generated_item] at @s run function mcrpg:general/generate_lore

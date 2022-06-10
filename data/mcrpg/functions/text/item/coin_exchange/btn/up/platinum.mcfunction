@@ -1,0 +1,2 @@
+execute store result score .success mcrpg run clear @s command_block{mcrpg:{name:"platinum_coin"}} 1
+execute if score .success mcrpg matches 1 run function mcrpg:text/item/coin_exchange/btn/up/subfunc/platinum

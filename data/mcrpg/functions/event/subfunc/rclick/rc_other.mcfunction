@@ -1,0 +1,1 @@
+execute if entity @s[nbt={SelectedItem:{tag:{mcrpg:{name:"wooden_hourglass"}}}}] run function mcrpg:item/consumable/wooden_hourglass

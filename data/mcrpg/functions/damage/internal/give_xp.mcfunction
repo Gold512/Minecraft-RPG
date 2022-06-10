@@ -21,6 +21,7 @@ execute if entity @s[type=vindicator] run scoreboard players add @p[tag=killer] 
 execute if entity @s[type=wither_skeleton] run scoreboard players add @p[tag=killer] mcrpg_killed_wither_skeleton 1
 execute if entity @s[type=vex] run scoreboard players add @p[tag=killer] mcrpg_killed_vex 1
 execute if entity @s[type=hoglin] run scoreboard players add @p[tag=killer] mcrpg_killed_hoglin 1
+execute if entity @s[type=zoglin] run scoreboard players add @p[tag=killer] mcrpg_killed_zoglin 1
 execute if entity @s[type=shulker] run scoreboard players add @p[tag=killer] mcrpg_killed_shulker 1
 execute if entity @s[type=enderman] run scoreboard players add @p[tag=killer] mcrpg_killed_enderman 1
 execute if entity @s[type=ravager] run scoreboard players add @p[tag=killer] mcrpg_killed_ravager 1

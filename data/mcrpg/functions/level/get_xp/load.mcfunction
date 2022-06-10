@@ -21,6 +21,7 @@ scoreboard objectives add mcrpg_killed_vindicator killed:vindicator
 scoreboard objectives add mcrpg_killed_wither_skeleton killed:wither_skeleton
 scoreboard objectives add mcrpg_killed_vex killed:vex
 scoreboard objectives add mcrpg_killed_hoglin killed:hoglin
+scoreboard objectives add mcrpg_killed_zoglin killed:zoglin
 scoreboard objectives add mcrpg_killed_shulker killed:shulker
 scoreboard objectives add mcrpg_killed_enderman killed:enderman
 scoreboard objectives add mcrpg_killed_ravager killed:ravager

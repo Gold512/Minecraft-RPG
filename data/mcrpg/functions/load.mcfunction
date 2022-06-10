@@ -79,7 +79,7 @@ scoreboard objectives add mcrpg_uuid4 dummy
 
 # triggers
 scoreboard objectives add mcrpg_settings_menu trigger "Settings Menu"
-scoreboard objectives add mcrpg_equip trigger "Equip Menu"
+scoreboard objectives add mcrpg_item trigger "Item Menu"
 
 # player damage module
 function mcrpg:damage/player/init

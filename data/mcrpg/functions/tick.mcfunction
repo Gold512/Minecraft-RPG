@@ -21,7 +21,7 @@ execute as @a[scores={mcrpg_deaths=1..}] run function mcrpg:event/death
 # trigger functions
 execute as @a[scores={mcrpg_settings_menu=1..}] run function mcrpg:text/triggers/settings
 execute as @a[scores={mcrpg_stat_menu=1..}] run function mcrpg:level/stat_menu_trigger
-execute as @a[scores={mcrpg_equip=1..}] run function mcrpg:text/equip/trigger
+execute as @a[scores={mcrpg_item=1..}] run function mcrpg:text/item/trigger
 
 execute as @e[type=armor_stand,tag=mcrpg_init] run function mcrpg:block/check
 

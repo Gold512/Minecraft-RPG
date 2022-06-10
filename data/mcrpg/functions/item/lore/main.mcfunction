@@ -9,6 +9,9 @@ data modify storage minecraft:mcrpg item.tag.display.Lore set value []
 execute store success score .success mcrpg run data get storage minecraft:mcrpg item.tag.mcrpg.displayName
 execute if score .success mcrpg matches 1 run function mcrpg:item/lore/subfunc/set_name
 
+execute store success score .success mcrpg run data get storage minecraft:mcrpg item.tag.mcrpg.lore
+execute if score .success mcrpg matches 1 run function mcrpg:item/lore/subfunc/set_lore
+
 execute store success score .success mcrpg run data get storage minecraft:mcrpg item.tag.mcrpg.description
 execute if score .success mcrpg matches 1 run function mcrpg:item/lore/subfunc/set_description
 

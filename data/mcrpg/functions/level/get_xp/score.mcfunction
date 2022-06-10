@@ -125,11 +125,17 @@ scoreboard players operation @s mcrpg_killed_vex *= .xp_each mcrpg
 scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_vex
 scoreboard players reset @s mcrpg_killed_vex
 
-# zombie/normal hoglins
+# hoglin
 scoreboard players set .xp_each mcrpg 8
-scoreboard players operation @s mcrpg_killed_hoglins *= .xp_each mcrpg
-scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_hoglins
-scoreboard players reset @s mcrpg_killed_hoglins
+scoreboard players operation @s mcrpg_killed_hoglin *= .xp_each mcrpg
+scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_hoglin
+scoreboard players reset @s mcrpg_killed_hoglin
+
+# zoglin
+scoreboard players set .xp_each mcrpg 8
+scoreboard players operation @s mcrpg_killed_zoglin *= .xp_each mcrpg
+scoreboard players operation .xp_gain mcrpg += @s mcrpg_killed_zoglin
+scoreboard players reset @s mcrpg_killed_zoglin
 
 # shulker
 scoreboard players set .xp_each mcrpg 8

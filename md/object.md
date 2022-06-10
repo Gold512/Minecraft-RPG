@@ -45,6 +45,7 @@ key | type | description
 `right` | `Boolean` | indicates whether the item has a right click event 
 `switch` | `Boolean` | indicates whether the item has a switch item event
 `shiftSwitch` | `Boolean` | indicates whether the item has a shift+switch item event 
+`menu` | [`menu object`](#menu-object) | indicates what menus the item has 
 
 ---
 private properties
@@ -77,3 +78,10 @@ key | type | description
 --- | ---- | ---
 `id` | `Int` | the numerical id of the object (mostly for internal usage)
 `name` | `JSON String` | the name of the object (to display)
+
+## menu object
+> Stores what menus the item has in `/trigger mcrpg_item`
+
+key | type | description
+--- | ---- | ---
+`coin` | `Boolean` | Whether the item has the coin exchange menu
