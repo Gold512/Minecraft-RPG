@@ -10,7 +10,7 @@ summon marker ^-5 ^ ^ {Tags:["gen_dungeon"]}
 summon marker ^-5 ^ ^5 {Tags:["gen_dungeon"]}
 
 # enter room trigger 
-summon item_frame ^ ^1 ^-1 {Tags:["room_enter_trigger"],Facing:1,Invulnerable:1}
+summon item_frame ^ ^1 ^-1 {Tags:["room_enter_trigger"],Facing:1,Invulnerable:1,Invisible:1}
 
 data modify storage mcrpg temp set value {}
 
