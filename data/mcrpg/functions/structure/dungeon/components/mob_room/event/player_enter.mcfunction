@@ -5,7 +5,7 @@ data modify entity @e[type=marker,tag=pos_marker,limit=1] Pos set from entity @s
 execute as @e[type=marker,tag=pos_marker,limit=1] at @s run fill ~ ~ ~ ~ ~1 ~ black_stained_glass
 
 data modify entity @e[type=marker,tag=pos_marker,limit=1] Pos set from entity @s Item.tag.trigger
-execute as @e[type=marker,tag=pos_marker,limit=1] at @s run summon item_frame ~ ~ ~ {Tags:["mob_room_trigger"],Facing:1,Invulnerable:1,Invisible:1}
+execute as @e[type=marker,tag=pos_marker,limit=1] at @s run summon item_frame ~ ~ ~ {Tags:["mob_room_trigger"],Facing:1,Invulnerable:1b,Invisible:1b}
 
 # this is an item frame 
 tag @s add this 
