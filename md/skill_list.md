@@ -78,9 +78,9 @@ id       | name               | mana | ct    | ct (max)
 ### Category 3 (DragonFire) `1013`...
 id       | name               | mana | ct    | ct (max)
 -------: | ---------------    | ---: | ----: | ---: 
-`101301` | dragon_fire_beam
+`101301` | dragon_fireball    |2500  |    40 | 
+`101301` | dragon_fire_beam   |6000  |    80 | 
 `101302` | dragon_breath
-`101303` | dragon_fireball    | 5000 |    50 | 
 ---
 ## Water: `102`...
 ### Category 1 (Water) `1021`...

@@ -1,1 +1,1 @@
-effect give @s levitation 1 10 true
+summon minecraft:creeper ~ ~ ~ {ExplosionRadius:1,Fuse:0}

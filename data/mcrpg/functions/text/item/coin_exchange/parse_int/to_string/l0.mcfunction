@@ -1,0 +1,5 @@
+execute if score .temp mcrpg matches 0 run data modify storage mcrpg temp prepend value "0"
+execute if score .temp mcrpg matches 1 run data modify storage mcrpg temp prepend value "1"
+execute if score .temp mcrpg matches 2 run data modify storage mcrpg temp prepend value "2"
+execute if score .temp mcrpg matches 3 run data modify storage mcrpg temp prepend value "3"
+execute if score .temp mcrpg matches 4 run data modify storage mcrpg temp prepend value "4"

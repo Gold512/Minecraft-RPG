@@ -124,6 +124,8 @@ scoreboard players set #3 mcrpg_const 3
 scoreboard players set #4 mcrpg_const 4
 scoreboard players set #5 mcrpg_const 5
 
+scoreboard players set #lcg mcrpg_const 1103515245
+
 execute as @a at @s run tellraw @p {"text":"[ load ] Minecraft RPG system "}
 
 # fix jitter of projectiles 
@@ -180,5 +182,9 @@ scoreboard objectives add mcrpg_stamina dummy
 scoreboard objectives add mcrpg_maxStamina dummy
 scoreboard objectives add mcrpg_staminaRegen dummy 
 
+# how long particles will live for 
+scoreboard objectives add mcrpg_life dummy 
+
 function mcrpg:general/db/main
 function mcrpg:level/get_xp/load
+function mcrpg:general/rng/zprivate/init

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:101,Enchantments:[{id:\"protection\",lvl:0}],HideFlags:1,display:{Lore:['{\"text\":\"Value: 1\",\"color\":\"gray\",\"italic\":false}','{\"italic\":false,\"extra\":[{\"bold\":true,\"color\":\"dark_green\",\"extra\":[{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\" [\"},{\"bold\":false,\"text\":\"150\"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"]\"}],\"text\":\"UNCOMMON\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"extra\":[{\"text\":\"Bronze Coin\"}],\"text\":\"\"}],\"text\":\"\"}'},mcrpg:{displayName:'\"Bronze Coin\"',event:{currentHand:1,menu:{coin:1b}},lore:['{\"text\":\"Value: 1\",\"color\":\"gray\",\"italic\":false}'],name:\"bronze_coin\",rarity:150}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

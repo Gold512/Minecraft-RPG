@@ -1,0 +1,1 @@
+execute unless score #lcg mcrpg matches ..0 unless score #lcg mcrpg matches 1.. run function mcrpg:general/rng/zprivate/uuid_reset

@@ -14,5 +14,4 @@ function mcrpg:damage/mobs
 
 tag @s remove caster
 
-playsound block.end_portal_frame.fill block @a ~ ~ ~ 1 1.4
-
+playsound block.note_block.chime master @a ~ ~ ~

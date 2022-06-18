@@ -39,20 +39,13 @@ function mcrpg:damage/player/main
 execute as @a[scores={mcrpg_dash=1..}] at @s run function mcrpg:skills/sub_func/dash_tick
 execute as @a[scores={mcrpg_cd=1..}] run scoreboard players remove @s mcrpg_cd 1
 
-# prevent jittering of entities with 'Motion' or 'power' set
-# execute as @e[type=#mcrpg:vis_fix, tag=mcrpg_vis_fix] run function mcrpg:other/vis_fix
-# scoreboard players operation .global visfix *= #-1 mcrpg_const
-
-# x910 tracker
-# tp @e[tag=dmy] Gold512
-# execute as @e[tag=dmy] at @s run tp @s ~ ~ ~ facing entity @e[limit=1,type=player,sort=nearest,distance=1..]
-
-#tellraw @s [{"text": "hello world", "font":"illageralt"}]
-
-#/msg @s 1-5: @e[distance=.1..5,limit=5,sort=nearest], 6-10: @e[distance=6..10,limit=5,sort=nearest], 11-15: @e[distance=11..15,limit=5,sort=nearest], 16-20: @e[distance=16..20,limit=5,sort=nearest], 21-25: @e[distance=20..25,limit=5,sort=nearest]
-
 function mcrpg:level/tick
 execute as @e[tag=dmy] at @s positioned ~ ~1 ~ run particle enchanted_hit ^ ^ ^2.5 0 0 0 0 1 force @p
 
 # general water missile functions 
 execute as @e[tag=missile,type=marker] at @s run function mcrpg:skills/water/subfunc/water_missile/proj_tick
+
+# custom particles
+execute as @e[type=snowball,scores={mcrpg_life=-2147483648..2147483647}] run function mcrpg:general/particle_tick
+
+execute as @a at @s as @e[type=item_frame,tag=room_enter_trigger,dx=.3,dy=.3,dz=.3] at @s run function mcrpg:structure/dungeon/components/mob_room/event/player_enter

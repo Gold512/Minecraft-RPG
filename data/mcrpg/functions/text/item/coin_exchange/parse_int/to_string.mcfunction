@@ -1,0 +1,2 @@
+execute if score .temp mcrpg matches 0..4 run function mcrpg:text/item/coin_exchange/parse_int/to_string/l0
+execute if score .temp mcrpg matches 5..9 run function mcrpg:text/item/coin_exchange/parse_int/to_string/l1

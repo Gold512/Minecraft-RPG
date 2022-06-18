@@ -3,10 +3,12 @@
         "zombie",
         "husk",
         "drowned",
-        "skeleton",
         "skeleton_horse",
         "wither_skeleton",
         "zombie_horse",
-        "zombie_villager"
+        "zombie_villager",
+        "zoglin",
+        "#skeletons",
+        "zombified_piglin"
     ]
 }
