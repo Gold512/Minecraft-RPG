@@ -1,3 +1,12 @@
+# input
+# <scoreboard> .base_time mcrpg 
+# <scoreboard> .final_time mcrpg 
+# <scoreboard> .final_casting mcrpg 
+# <scoreboard> .base_casting mcrpg 
+
+# output
+# <scoreboard> .out mcrpg 
+
 # .base_time - (.base_time - .final_time) / (.final_casting - .base_casting) * min(.current_casting - .base_casting, .final_casting - .base_casting)
 
 # Statement is: .base_time - (.base_time - .final_time) / (.final_casting - .base_casting)

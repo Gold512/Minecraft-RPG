@@ -1,7 +1,7 @@
 tag @s add projectile
 scoreboard players operation .id mcrpg = @s mcrpg_sid
 
-# limit=1 as there can only be one caster
+# limit=1 as there can only be one target 
 execute as @e[sort=nearest,type=!#mcrpg:no_xp] unless score .id mcrpg = @s mcrpg_sid run tag @s add possible_target
 tag @e[tag=possible_target,limit=1,sort=nearest] add target
 tag @e[tag=possible_target] remove possible_target

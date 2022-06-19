@@ -48,4 +48,4 @@ execute as @e[tag=missile,type=marker] at @s run function mcrpg:skills/water/sub
 # custom particles
 execute as @e[type=snowball,scores={mcrpg_life=-2147483648..2147483647}] run function mcrpg:general/particle_tick
 
-execute as @a at @s as @e[type=item_frame,tag=room_enter_trigger,dx=.3,dy=.3,dz=.3] at @s run function mcrpg:structure/dungeon/components/mob_room/event/player_enter
+execute as @a at @s as @e[type=item_frame,tag=room_enter_trigger,dx=0,dy=.5,dz=0] at @s run function mcrpg:structure/dungeon/components/mob_room/event/player_enter

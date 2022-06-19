@@ -1,6 +1,6 @@
 # this function should be executed at the 'origin' point of the dungeon 
 
-scoreboard players set .max_depth mcrpg 20
+scoreboard players set .max_depth mcrpg 50
 
 # start room
 summon item_frame ~ ~ ~ {Tags:["align"]}

@@ -1,3 +1,7 @@
+# display message to player 
+title @a[dx=7,dy=3,dz=7] subtitle {"text":"Kill the enemies","color":"red"}
+title @a[dx=7,dy=3,dz=7] title {"text":"","color":""}
+
 # close off entrance 
 summon marker ~ ~ ~ {Tags:["pos_marker"]}
 

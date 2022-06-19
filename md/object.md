@@ -34,9 +34,9 @@ key | type | description
 `name` | `String` | snakecase name of the item
 `displayName` | `String` | a text component comtaining the name to display
 `mana` | `Int` | the amount of mana used for the skill (this value is variable as there may be buffs or debuffs that change mana cost)
+`ctFunction` | [`cast time function`](#cast-time-function) | Describes how the cast time scales with casting 
 `ct` | `Int` | the amount of time in ticks that the skill's cast time will take (amount of time BEFORE the skill is used at which no other skill may be used during this time period)
 `cd` | `Int` | the amount of time in ticks that the skill's cooldown will last for (amount of time AFTER the skill is used at which no other skill may be used during this time period)
-`cast` | `Int` | the amount of time in ticks that the skill takes to be used (amount of time before the skill is able to be cast (somewhat like charging a bow))
  
 
 ## event object
@@ -85,3 +85,12 @@ key | type | description
 key | type | description
 --- | ---- | ---
 `coin` | `Boolean` | Whether the item has the coin exchange menu
+
+## cast time function 
+
+key | type | description
+--- | ---- | ---
+`ctBase` | `Int` | the base cast time that the player starts with upon first learning the skill
+`ctFinal` | `Int` | the shortest time at which the skill may be cast within 
+`castingBase` | `Int` | the starting casting stat at which the cast time is `ctBase` 
+`castingFinal` | `Int` | the ending casting stat at which the cast time is `ctFinal`

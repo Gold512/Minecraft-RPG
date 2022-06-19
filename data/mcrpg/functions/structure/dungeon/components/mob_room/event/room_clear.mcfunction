@@ -1,4 +1,5 @@
-title @a[dx=7,dy=3,dz=7] title {"text":"Room Cleared","color":"green"}
+title @a[dx=7,dy=3,dz=7] subtitle {"text":"Room Cleared","color":"green"}
+title @a[dx=7,dy=3,dz=7] title {"text":"","color":""}
 summon marker ~ ~ ~ {Tags:["coords"]}
 
 # unblock entrances 

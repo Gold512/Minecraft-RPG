@@ -12,6 +12,9 @@ function mcrpg:general/get_array
 
 data modify storage mcrpg skill set from storage mcrpg output
 
+# calculate cast time if needed 
+execute if data storage mcrpg skill.ctFunction run function mcrpg:text/item/equip/btn/equip/cast_time
+
 # add the skill to item skills array 
 
 # get current hand with item 

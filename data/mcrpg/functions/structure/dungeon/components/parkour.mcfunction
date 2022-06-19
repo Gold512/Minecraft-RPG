@@ -5,7 +5,8 @@
 # execute if entity @s[] if entity @e[type=marker,tag=gen_dungeon,dx=0,dy=0,dz=0]
 
 # foward down back 
-execute store result score .success mcrpg run execute positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=...2] positioned ^ ^-5 ^ unless entity @e[type=marker,tag=gen_dungeon,distance=...2] positioned ^ ^ ^-5 unless entity @e[type=marker,tag=gen_dungeon,distance=...2] 
+scoreboard players set .success mcrpg 0
+execute positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^-5 ^ unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^ ^-5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] run scoreboard players set .success mcrpg 1
 
 execute if score .success mcrpg matches 1 run function mcrpg:structure/dungeon/components/subfunc/parkour
 
