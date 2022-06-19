@@ -8,13 +8,13 @@ fill ^ ^1 ^-2 ^ ^2 ^-2 air
 setblock ^1 ^4 ^6 lantern[hanging=true]
 #setblock ^1 ^2 ^6 candle[lit=true]
 
-setblock ^-1 ^4 ^-1 lantern[hanging=true]
+setblock ^1 ^4 ^-1 lantern[hanging=true]
 #setblock ^-1 ^2 ^-1 candle[lit=true]
 
 setblock ^-6 ^4 ^-1 lantern[hanging=true]
 #setblock ^-6 ^2 ^-1 candle[lit=true]
 
-setblock ^-6 ^4 ^-6 lantern[hanging=true]
+setblock ^-6 ^4 ^6 lantern[hanging=true]
 #setblock ^-6 ^2 ^-6 candle[lit=true]
 
 fill ^-2 ^1 ^2 ^-3 ^1 ^3 light
@@ -41,6 +41,10 @@ data modify storage mcrpg temp.trigger set from entity @e[type=marker,tag=coord,
 tp @e[type=marker,tag=coord] ^-2.5 ^1 ^2.5
 data modify storage mcrpg temp.center set from entity @e[type=marker,tag=coord,limit=1] Pos
 
+tp @e[type=marker,tag=coord] ^ ^1 ^-3
+data modify storage mcrpg temp.barrier set from entity @e[type=marker,tag=coord,limit=1] Pos
+
+kill @e[type=marker,tag=coord,limit=1]
 tag @s add this 
 execute as @e[type=item_frame,tag=room_enter_trigger,sort=nearest,limit=1] run function mcrpg:structure/dungeon/components/mob_room/subfunc/set_data
 tag @s remove this 

@@ -2,10 +2,13 @@
 summon marker ~ ~ ~ {Tags:["pos_marker"]}
 
 data modify entity @e[type=marker,tag=pos_marker,limit=1] Pos set from entity @s Item.tag.entrance
-execute as @e[type=marker,tag=pos_marker,limit=1] at @s run fill ~ ~ ~ ~ ~1 ~ black_stained_glass
+execute at @e[type=marker,tag=pos_marker,limit=1] run fill ~ ~ ~ ~ ~1 ~ black_stained_glass
 
 data modify entity @e[type=marker,tag=pos_marker,limit=1] Pos set from entity @s Item.tag.trigger
-execute as @e[type=marker,tag=pos_marker,limit=1] at @s run summon item_frame ~ ~ ~ {Tags:["mob_room_trigger"],Facing:1,Invulnerable:1b,Invisible:1b}
+execute at @e[type=marker,tag=pos_marker,limit=1] run summon item_frame ~ ~ ~ {Tags:["mob_room_trigger"],Facing:1,Invulnerable:1b,Invisible:1b}
+
+data modify entity @e[type=marker,tag=pos_marker,limit=1] Pos set from entity @s Item.tag.barrier
+execute at @e[type=marker,tag=pos_marker,limit=1] run fill ~ ~ ~ ~ ~1 ~ barrier 
 
 # this is an item frame 
 tag @s add this 
