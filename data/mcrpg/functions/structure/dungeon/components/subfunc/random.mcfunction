@@ -1,5 +1,6 @@
+
 scoreboard players set .min mcrpg 1 
-scoreboard players set .max mcrpg 80
+scoreboard players set .max mcrpg 100
 
 function mcrpg:general/rng/range
 
@@ -14,4 +15,4 @@ execute if score .out mcrpg matches 51..60 run function mcrpg:structure/dungeon/
 execute if score .out mcrpg matches 61..65 run function mcrpg:structure/dungeon/components/chest_room
 execute if score .out mcrpg matches 66..70 run function mcrpg:structure/dungeon/components/stairwell
 execute if score .out mcrpg matches 71..80 run function mcrpg:structure/dungeon/components/mob_room/medium
-execute if score .out mcrpg matches 80..90 run function mcrpg:structure/dungeon/components/parkour
+execute if score .out mcrpg matches 80..100 run function mcrpg:structure/dungeon/components/parkour

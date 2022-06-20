@@ -6,7 +6,11 @@
 
 # foward down back 
 scoreboard players set .success mcrpg 0
-execute positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^-5 ^ unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^ ^-5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] run scoreboard players set .success mcrpg 1
+#execute store success score ._0_0_1 mcrpg run execute positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1]
+#execute store success score ._0_0_2 mcrpg run execute positioned ^ ^ ^10 unless entity @e[type=marker,tag=gen_dungeon,distance=..1]
+#execute store success score ._0_-1_2 mcrpg run execute positioned ^ ^ ^10 unless entity @e[type=marker,tag=gen_dungeon,distance=..1]
+
+execute positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^ ^5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^-5 ^-5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] positioned ^ ^ ^-5 unless entity @e[type=marker,tag=gen_dungeon,distance=..1] run scoreboard players set .success mcrpg 1
 
 execute if score .success mcrpg matches 1 run function mcrpg:structure/dungeon/components/subfunc/parkour
 

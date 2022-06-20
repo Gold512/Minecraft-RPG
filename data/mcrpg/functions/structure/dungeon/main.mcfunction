@@ -4,6 +4,7 @@ scoreboard players set .max_depth mcrpg 50
 
 # start room
 summon item_frame ~ ~ ~ {Tags:["align"]}
+summon marker ~ ~ ~ {Tags:["gen_dungeon"]}
 execute as @e[type=item_frame,tag=align,sort=nearest,limit=1] at @s positioned ~ ~-.4 ~ run function mcrpg:structure/dungeon/components/origin
 kill @e[type=item_frame,tag=align,sort=nearest,limit=1]
 
