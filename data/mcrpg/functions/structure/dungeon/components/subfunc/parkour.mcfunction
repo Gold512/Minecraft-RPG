@@ -26,8 +26,14 @@ execute positioned ^ ^ ^-5 if entity @e[type=marker,tag=parkour_room,distance=..
 
 # choose from a selection of parkour courses 
 # for now just use 1 
+scoreboard players set .min mcrpg 1 
+scoreboard players set .max mcrpg 3
 
-function mcrpg:structure/dungeon/components/subfunc/parkour/course_1 
+function mcrpg:general/rng/range
+
+execute if score .out mcrpg matches 1 run function mcrpg:structure/dungeon/components/subfunc/parkour/course_1 
+execute if score .out mcrpg matches 2 run function mcrpg:structure/dungeon/components/subfunc/parkour/course_2 
+execute if score .out mcrpg matches 3 run function mcrpg:structure/dungeon/components/subfunc/parkour/course_3 
 
 # markers 
 

@@ -9,4 +9,7 @@ execute as @e[type=item_frame,tag=align,sort=nearest,limit=1] at @s positioned ~
 kill @e[type=item_frame,tag=align,sort=nearest,limit=1]
 
 function mcrpg:structure/dungeon/subfunc/gen_loop
+execute store result score .count mcrpg if entity @e[type=marker,tag=gen_dungeon]
 kill @e[tag=gen_dungeon]
+
+tellraw @s ["", {"text": "[","color":"gray"},{"text":"INFO","color":"aqua"},{"text": "] ","color":"gray"},{"text":"","color":"aqua","extra":[{"text":"Generated dungeon with "},{"score":{"name": ".count","objective": "mcrpg"}}, {"text":" tiles (5x5x5 units)"}]}]

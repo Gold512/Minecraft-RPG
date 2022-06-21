@@ -1,7 +1,7 @@
 # merge two parkour rooms into one longer room 
 
-fill ^-1 ^-3 ^-2 ^1 ^ ^-3 air 
-fill ^-1 ^-4 ^-2 ^1 ^-4 ^-3 lava
+fill ^-1 ^-2 ^-2 ^1 ^4 ^-3 air 
+fill ^-1 ^-3 ^-2 ^1 ^-3 ^-3 lava
 
 # place a random block where the divider would normally be to prevent impossible 
 # parkour courses being generated 
