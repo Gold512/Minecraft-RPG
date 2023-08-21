@@ -168,6 +168,8 @@ scoreboard objectives add mcrpg_skill_id dummy
 scoreboard objectives add mcrpg_skill_ct dummy
 scoreboard objectives add mcrpg_skill_progress dummy
 scoreboard objectives add mcrpg_skill_mana dummy
+scoreboard objectives add mcrpg_skill_delay dummy
+scoreboard objectives add mcrpg_skill_effect dummy
 scoreboard objectives add mcrpg_skill_mana_step dummy
 
 # pos scoreboards
@@ -184,6 +186,9 @@ scoreboard objectives add mcrpg_staminaRegen dummy
 
 # how long particles will live for 
 scoreboard objectives add mcrpg_life dummy 
+
+# 
+scoreboard objectives add mcrpg_menu_equip_fold dummy
 
 function mcrpg:general/db/main
 function mcrpg:level/get_xp/load
