@@ -3,10 +3,10 @@
 # -== variables ==-
 # - Input 
 # <scoreboard> .index mcrpg 
-# <storage> mcrpg input
+# <storage> mcrpg in
 # - Output
-# <storage> mcrpg output
-# Limit: 128 items (.index 127)
+# <storage> mcrpg out
+# Limit: 128 items (.index 0-127)
 # Algorithm: Tree search (4 branch)
 
 function mcrpg:general/subfunc/get_array/l3/l3_0

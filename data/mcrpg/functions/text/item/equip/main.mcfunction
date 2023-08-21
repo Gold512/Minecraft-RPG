@@ -3,4 +3,4 @@ execute unless score .has_oh_nbt mcrpg matches 1 unless score .has_mh_nbt mcrpg 
 execute if score .has_mh_nbt mcrpg matches 1 run function mcrpg:text/item/equip/text
 execute if score .has_oh_nbt mcrpg matches 1 run function mcrpg:text/item/equip/text
 
-scoreboard players set @s mcrpg_menu 300
+scoreboard players set @s mcrpg_menu 20000

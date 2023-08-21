@@ -1,0 +1,1 @@
+particle flame ^ ^ ^1.6 .1 .1 .1 .2 3 force @a 

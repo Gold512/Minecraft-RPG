@@ -11,7 +11,7 @@ scoreboard players set @a[scores={mcrpg_shifting=1..}] mcrpg_shifting 0
 
 scoreboard players add @a mcrpg_manaTimer 1
 
-execute as @a[gamemode=!creative,gamemode=!spectator] run function mcrpg:other/statbar
+execute as @a run function mcrpg:other/statbar
 
 execute as @a[scores={mcrpg_manaTimer=30..}] run function mcrpg:other/regen_mana
 

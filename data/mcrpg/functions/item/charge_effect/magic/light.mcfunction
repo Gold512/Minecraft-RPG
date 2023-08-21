@@ -1,0 +1,2 @@
+execute anchored eyes if score .id mcrpg matches 1 run particle minecraft:end_rod ^ ^ ^1.6 .02 .02 .02 .03 3 normal @a[tag=!hide_effect]
+execute if score .id mcrpg matches 2 run particle minecraft:end_rod ~ ~1 ~ .4 .4 .4 0.05 32 normal @a[tag=!hide_effect]

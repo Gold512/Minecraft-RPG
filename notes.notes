@@ -10,9 +10,9 @@ Characters:
     - Empty: ☐
     - Triangles:
         - ▶
-        - ▲
+        - ▲: \u25B2
         - ◀
-        - ▼
+        - ▼: \u25BC
 
     - Lines: 
         - ━ : \u2501

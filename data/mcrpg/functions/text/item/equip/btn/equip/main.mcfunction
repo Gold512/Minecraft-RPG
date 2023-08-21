@@ -1,16 +1,16 @@
-scoreboard players remove @s mcrpg_btn 40 
-scoreboard players operation .index mcrpg = @s mcrpg_btn
-scoreboard players operation .index mcrpg %= #100 mcrpg_const
-
-# update skills array 
-data modify storage mcrpg skills set value []
-function mcrpg:text/item/equip/get_skills/main
-
-data modify storage minecraft:mcrpg input set from storage mcrpg skills 
-
-function mcrpg:general/get_array
-
-data modify storage mcrpg skill set from storage mcrpg output
+# scoreboard players remove @s mcrpg_btn 40 
+# scoreboard players operation .index mcrpg = @s mcrpg_btn
+# scoreboard players operation .index mcrpg %= #100 mcrpg_const
+# 
+# # update skills array 
+# data modify storage mcrpg skills set value []
+# function mcrpg:text/item/equip/get_skills/main
+# 
+# data modify storage minecraft:mcrpg in set from storage mcrpg skills 
+# 
+# function mcrpg:general/get_array
+# 
+# data modify storage mcrpg skill set from storage mcrpg out
 
 # calculate cast time if needed 
 execute if data storage mcrpg skill.ctFunction run function mcrpg:text/item/equip/btn/equip/cast_time

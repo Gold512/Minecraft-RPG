@@ -34,6 +34,7 @@ key | type | description
 `name` | `String` | snakecase name of the item
 `displayName` | `String` | a text component comtaining the name to display
 `mana` | `Int` | the amount of mana used for the skill (this value is variable as there may be buffs or debuffs that change mana cost)
+`chargeEffect` | `Int` | The id of the function to run on charge tick `name(digits)` `<type(1)> <element(1)> <id(2)>`
 `ctFunction` | [`cast time function`](#cast-time-function) | Describes how the cast time scales with casting 
 `ct` | `Int` | the amount of time in ticks that the skill's cast time will take (amount of time BEFORE the skill is used at which no other skill may be used during this time period)
 `cd` | `Int` | the amount of time in ticks that the skill's cooldown will last for (amount of time AFTER the skill is used at which no other skill may be used during this time period)

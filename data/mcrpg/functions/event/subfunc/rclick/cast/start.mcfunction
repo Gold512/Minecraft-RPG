@@ -9,6 +9,11 @@ scoreboard players operation @s mcrpg_skill_mana_step /= .skill_cd mcrpg
 # set to the remainding amount of mana to be deducted (rounding errors) 
 scoreboard players operation @s mcrpg_skill_mana %= .skill_cd mcrpg
 
+# the amount of time the skill had been delayed for 
+scoreboard players set @s mcrpg_skill_delay 0
+
+scoreboard players operation @s mcrpg_skill_effect = .skill_charge_effect mcrpg
+
 # set start pos 
 execute store result score @s mcrpg_x_pos run data get entity @s Pos[0] 100
 execute store result score @s mcrpg_y_pos run data get entity @s Pos[1] 100

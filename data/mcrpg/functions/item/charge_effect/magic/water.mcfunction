@@ -1,0 +1,2 @@
+execute anchored eyes if score .id mcrpg matches 1 run particle minecraft:dust_color_transition 0 0 1 3 0.27450980392 0.70588235294 0.94117647058 ^ ^ ^1.6 .02 .02 .02 .03 3 normal @a[tag=!hide_effect]
+execute if score .id mcrpg matches 2 run particle minecraft:dust_color_transition 0 0 1 3 0.27450980392 0.70588235294 0.94117647058 ~ ~1 ~ .4 .4 .4 0.05 32 normal @a[tag=!hide_effect]
